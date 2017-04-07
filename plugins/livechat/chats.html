@@ -1,0 +1,311 @@
+<style>
+/*----chat-box----*/
+.chat-msg {
+	margin-bottom: 2em;
+}
+.chat-box{
+	background: #FFf;
+}
+.chat-msg-on{
+	background:#E7ECF1;
+	border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	-moz-border-radius: 0.15em;
+	-o-border-radius: 0.15em;
+	-ms-border-radius: 0.15em;
+	margin-left: 0.8em;
+	position:relative;
+	
+    font-size: 16px !important;
+	 
+}
+.chat-msg-on p{
+	color: #53646D;
+	font-size: 0.83em;
+	padding: 0.5em 0;
+	margin: 0;
+	position: relative;
+}
+.chat-msg-on span{
+	width: 10px;
+	height: 13px;
+	display: inline-block;
+	background: url(images/chat-arrow-l.html) no-repeat 0px 0px;
+	position: absolute;
+	left: -10px;
+	top: 21%;
+}
+.chat-msg-replay{
+	background:#21B8C6;
+}
+.chat-msg-replay p{
+	   color: #f9f9f9;
+    font-size: 0.83em;
+    padding: .6em 0;
+    margin: 0;
+    position: relative;
+}
+.chat-msg-replay span{
+	width: 10px;
+	height: 13px;
+	display: inline-block;
+	background: url(../images/chat-arrow-r.html) no-repeat 0px 0px;
+	position: absolute;
+	left: 99.4%;
+	top: 21%;
+}
+.people-on-chat{
+	padding: 2em 0em 0em;
+	
+	overflow:auto;
+	 
+}
+/*----msg-type-box----*/
+.msg-type-box{
+ 
+	border: 1px solid #e9ebee;
+}
+.msg-type-box input[type="text"]{
+	color: #79848C;
+    font-size: 1em;
+    border: none;
+    outline: none;
+   
+    padding: 28px;
+}
+.msg-type-box input[type="button"]{
+	    color: #53646D;
+    font-size: 13px;
+    background: url(../images/send-bg.html) no-repeat 0px 0px;
+    border: none;
+    font-family: 'Raleway-SemiBold';
+    outline: none;
+    text-indent: 1.4em;
+    cursor: pointer;
+	    margin: 23px 0px !important;
+    
+    -webkit-appearance: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.msg-type-box input[type="button"]:hover{
+	color:#21B8C6;
+}
+/*---get-in-touch---*/
+.get-in-touch{
+	background: #FFF;
+	margin: 2.5em 0;
+	padding: 0.2em 0 2em 1.5em;
+}
+.get-in-touch h3{
+	color:#475965;
+	font-size:1.2em;
+	font-family: 'Raleway-SemiBold';
+	display:block;
+	text-transform:uppercase;
+}
+.chat-box-wrap{
+	border: 1px solid #e9ebee;
+	
+}
+.shop_reviews_header{
+    text-align: center;
+    color: #00BCD4;
+    background: #ddedef;
+    padding: 10px;
+    margin: 0px;
+	cursor:pointer;
+
+}
+.posted_by {
+    float: left;
+    font-size: x-small;
+    color: #795548;
+    padding: 7px;
+}
+.days_ago{
+	 float: right;
+    font-style: oblique;
+    font-size: x-small;
+	  color: #795548;
+}
+/*---*/
+.client_creds{
+	max-width: 30% !important;
+	width:100px;
+    border: 1px solid #ccc !important;
+    padding: 6px;
+}
+.people-on-chat {
+        height: 335px;
+    overflow: auto;
+    background: rgba(230, 230, 230, 0.26);
+}
+.chat-box-wrap{
+	height:103%;
+	overflow:auto;
+	padding:0px;
+}
+.chat-box{
+	height:100%;
+	overflow:auto;
+}
+.chat_msg_input{
+	    outline: none !important;
+    background: #fff;
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+    background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+	
+}
+.msg_admn_name{
+	text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FF5722;
+}
+.msg_admn_status{
+font-style: italic;
+    color: #8BC34A;	
+}
+.typing{
+	    width: 100%;
+    float: left;
+    text-align: right;
+    color: #9E9E9E;
+}
+.seen_status{
+    color: green;
+    position: absolute !important;
+    margin-left: 99%;
+    background: #9E9E9E  ;
+    border-radius: 50%;
+	
+}
+.seen_true{
+	background: #8BC34A !important
+}
+.not_seen{
+	background: #ccc !important
+}
+.not_sent{
+	    background: rgba(255, 0, 0, 0.13) !important;
+    padding: 2%;
+.no_msb_lb{
+	text-align:center;
+	float:left;
+	width:100%;
+	padding:20% 2%;
+	color:#ccc;
+	font-size:20px;
+}
+</style>
+<script>
+function show_overly(return_val){
+	   $(".overlay").show(); 
+	   $("#modal_body").html(''+return_val+'').css({"text-align":"center","margin":"0px auto","font-weight":"bold"});
+}
+$(document).ready(function(){   
+        // play message tone
+		 
+		   
+		    function  tone(tone_type){
+				if(tone_type=="qeued"){
+					  $("#tone1")[0].play();
+				}
+				else if(tone_type=="sent"){
+					 $("#tone2")[0].play();
+				}else if(tone_type=="seen"){
+					 $("#tone3")[0].play();
+				}else if(tone_type=="error"){
+					 $("#tone4")[0].play();
+				}else{
+					 $("#tone1")[0].play();
+				}
+			}
+	      //send chat 
+			$("#live_chat_input").change(function(){  $("#send_chat").click()    });
+			
+			$("#send_chat").click(function(){
+				var message=$.trim($("#live_chat_input").val());
+				var email=$.trim($('#Live_Chat_email').val());
+				var name=$.trim($('#Live_chat_name').val());
+				
+				if(message.length==0){
+					show_overly('message required');
+				}else{
+					 var chat='<div class="chat-msg"><div class="col-xs-2 chat-people"><a href="#"><img src="images/user-pic.jpg" title="name"></a></div><div class="col-xs-9 chat-msg-on"><p>'+message+'</p><b class="posted_by"> by '+name+'</b><b class="days_ago">today, now</b> <span class="seen_status" >  </span> </div> <div class="clearfix"> </div> </div>';
+					 $("#chat_reviews").append(chat);
+					 $(".no_msb_lb").hide();
+					   tone('');//play qeued tone
+					 $("#live_chat_input").val("")
+					 var chatboxHeight=$('#chat_reviews')[0].scrollHeight;
+					  $('#chat_reviews').animate({ scrollTop : chatboxHeight+300 }, 600);
+					  $.post("plugins/livechat/send_message.html",{
+						  message:message,
+						  email:email,
+						  name:name
+					  },function(data,status){
+						   
+						  if($.trim(data)=="sent"){
+							   $(".seen_status").addClass('not_seen');
+							     tone('sent');//play sent tone
+						  }else if($.trim(data)=="seen"){
+							  $(".seen_status").addClass('seen_strue');
+							    tone('seen');//play seen tone
+						  }else {
+							   $("#chat_reviews").children().last().addClass('not_sent').html(data);
+							    tone('error');//play error tone
+						  }
+					  });
+				}
+				
+			});
+			
+						
+function refresh_chats(){
+	var email=$.trim($('#Live_Chat_email').val());
+	if(email.length!=0){
+		$.get("plugins/livechat/live_chats_refresh.html",{
+			 email:email
+		},function(data){
+			 
+			if($.trim(data).length==0){
+				 
+			}else{
+				 $("#chat_reviews").append(data);
+ 				  $("#chat_reviews").animate({
+					scrollTop:$("html,body").offset().top-100000
+				});
+			}
+		});
+	}else{}
+}
+setInterval(function(){   
+     refresh_chats();
+    },3000);
+
+
+});
+</script>
+ <div class="col-sm-12 col-xs-12 no_padding chat-box-wrap">
+	<div class="chat-box col-sm-12 col-xs-12 no_padding">
+		<div class="people-on-chat col-sm-12 col-xs-12 no_padding" id="chat_reviews">
+		
+		 <h3 class='no_msb_lb glyphicon glyphicon-folder-open'><br> no messages </h3> <span></span>			<!---->
+		</div>
+		<div class="live_chat_footer  col-sm-12">
+		 <input type="text" class="live_chat_input col-sm-10" id="live_chat_input" placeholder="type your message here">
+		 <div class="send_btn  col-sm-2" id="send_chat"><h3 class="glyphicon glyphicon-send " ></h3> send</div>
+		</div>
+		<!--//msg-type-box---->
+	</div>
+  <div class="clearfix"> </div>
+</div>
+
+						<!--//chat-box---->
+						

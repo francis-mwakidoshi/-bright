@@ -1,0 +1,182 @@
+ <script>
+ $(document).ready(function(){
+	  $("#log_out_btn").click(function(){
+	   $.get("clients_welcome_menu.html",{
+			
+		},function(hdata,status){
+			if(hdata!=""){
+				$("#client_block").fadeOut().html('');
+			    $("#LogInPage").fadeIn(2000) 
+		        $("#MenuList").html(hdata);
+				$("#live_chat_wrap").show();
+				$(".inputTextRound").val('');
+				$(".close_float_btn").click()
+				window.location.href="http://www.brightessaywriters.com/";
+			}else{
+				
+			}
+	  });
+	  });
+});
+$(document).ready(function(){
+	  $(".clients_links").click(function(e){
+		   var role=$(e.target).attr("role");
+		   var user_id=$("#carry_user_id").text();
+            var email=$("#carry_email").text();
+		   if(!role){
+			   
+		   }else if (role=="Balance" || role=="MyOrders" ){
+			     $(".pages,.arrow_box").hide();
+				 $("#"+role+",#"+role+"Pointer").show();
+			  $.get("accounts/clients/"+role+"/"+role+".php",{
+				   user_id:user_id
+			   },function(data){
+					$("#"+role).html(data);
+					if(role=="MyOrders"){
+							var chatboxHeight=$('#jobs_body')[0].scrollHeight;
+							$('#jobs_body').animate({ scrollTop : chatboxHeight+300 }, 600);
+					}else{}
+			   });
+		   }else  if(role=="Messages"){
+				 $(".pages,.arrow_box").hide();
+			     $("#"+role+",#"+role+"Pointer").show();
+			   $.get("accounts/clients/Messages/mark_seen.html",{
+				   email:email
+			   },function(data){
+
+			   });
+			   
+		   }else{
+			$(".pages,.arrow_box").hide();
+			$("#"+role+",#"+role+"Pointer").show();
+		   }
+	  });
+		function refresh_messages_notice(){
+		  var email=$("#carry_email").text();
+		  var client_id=$("#carry_user_id").text();
+		  
+	      $.get("accounts/clients/Messages/reflesh_messages_notice.html",{
+			  email:email,
+			  client_id:client_id
+		  },function(data){
+			
+			   if($.trim(data)==0){
+				  $(".Messages_counter").hide();
+			  }else{
+			      $(".Messages_counter").text(data);
+			  }
+		  });
+		}
+		function refresh_orders_notice(){
+	     var email=$("#carry_email").text();
+		 var client_id=$("#carry_user_id").text();
+		  $.get("accounts/clients/MyOrders/reflesh_orders_notice.html",{
+			  email:email,
+			  client_id:client_id
+		  },function(data){
+
+			  if($.trim(data)==0){
+				   $(".Orders_counter").hide();
+			  }else{
+			    $(".Orders_counter").text(data);
+			  }
+		  });
+		}	
+		function refreshbalance(){
+			var email=$("#carry_email").text();
+		    var client_id=$("#carry_user_id").text();
+			 $.get("accounts/clients/Balance/refreshbalance.html",{
+			  email:email,
+			  client_id:client_id
+			},function(data){
+			  $(".balance").text(data)
+		  });
+		}
+
+	    setInterval(function(){
+			refresh_orders_notice();
+	    },4000);
+
+        setInterval(function(){
+			refresh_messages_notice();
+	    },4000);
+
+	     setInterval(function(){
+			refreshbalance();
+	    },4000);
+});
+
+</script>
+<style>
+.arrow_box {
+	    position: absolute;
+    background: #ffffff;
+        top: 90px;
+    z-index: 10;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color:#848484;;
+     border-width: 50px;
+    margin-left: -16px;
+}
+.arrow_box:before {
+	    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #848484;;
+    border-width: 50px;
+    margin-left: -16px;
+}
+.notice_counter{
+	background: #ea6565 !important;
+    color: #fff;
+}
+</style>
+<script>
+
+</script>
+<li>
+  Your ID: 
+  <a href="javascript:;"><span class="yourID"></span></a>
+</li>
+<li>
+   <a href="javascript:;" class="clients_links" role="NewOrder"> New order </a>
+   <span class="arrow_box not_shown" id="NewOrderPointer"></span>
+</li>
+<li>
+    <a href="javascript:;"  class="clients_links " role="MyOrders" id="my_orders">My orders <span role="MyOrders" class="clients_links my_orders notice_counter Orders_counter"></span></a>
+	<span class="arrow_box not_shown" id="MyOrdersPointer"></span>
+</li>
+<li>
+   <a href="javascript:;"  class="clients_links ac_balance" role="Balance">Balance: <span class="ac_balance  clients_links"  role="Balance">$<span class="balance  ac_balance clients_links"  role="Balance">...00</span></span></a>
+   <span class="arrow_box not_shown"  id="BalancePointer"></span>
+</li>
+<li>
+  <a href="javascript:;"  class="clients_links" role="Messages">Messages <span class="notice_counter clients_links Messages_counter" role="Messages"></span></a>
+  <span class="arrow_box not_shown" id="MessagesPointer"></span>
+</li>
+<li>
+  <a href="javascript:;"  class="clients_links" role="Profile">Profile</a>
+  <span class="arrow_box " id="ProfilePointer"></span>
+</li>
+<li>
+  <a href="javascript:;"  class="clients_links"  class="logOut" role="Profile"  id="log_out_btn" name="logout">Logout</a>
+</li>
+
+
+
+
+<i id="carry_email" class="not_shown"></i> 
+<i id="carry_pass" class="not_shown"></i> 
+<i id="carry_name" class="not_shown"></i> 
+<i id="carry_user_id" class="not_shown"></i>

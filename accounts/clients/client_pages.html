@@ -1,0 +1,2729 @@
+<style>
+
+.pages{
+    	background:#fff;
+	     margin-top: 16px;
+	    padding:0em 0px;
+	    height: 94%;
+        overflow:hidden;
+}
+
+.form_lbl{
+	    font-size: 18px;
+    color: #FF9800;
+    padding: 0px 0px 22px 0px;
+}
+.pages_header{
+	 min-height: 40px;
+    background: #848484;
+    margin-bottom: 0em;
+}
+.pages_header h3{
+	color: #fff;
+    padding: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#Profile{
+	height:auto;
+}
+</style>
+<script>
+function show_overly(return_val){
+	      if(return_val=="hide"){
+			  $(".overlay").hide(); 
+		  }else{
+		       $(".overlay").show(); 
+			   $("#modal_body").removeClass("maximize_overlay").html(''+return_val+'').css({"text-align":"center","margin":"0px auto","font-weight":"bold"});
+			 
+		  }
+	  }
+</script>
+<div class=" container full" class="client_pages_wrap">
+  <div class="col-sm-12 pages  " id="Profile">
+      <style>
+ 
+	 /*--first-one--*/
+.new {
+    text-align: center;
+    margin-top: 1em;
+}
+.new h3 a {
+    font-size:0.8em;
+    font-weight: 600;
+    color: #626E79;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+.first-one{
+    border-top-left-radius: 0.3em;
+    -o-border-top-left-radius: 0.3em;
+    -moz-border-top-left-radius: 0.3em;
+    -webkit-border-top-right-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    -o-border-top-right-radius: 0.3em;
+    -moz-border-top-right-radius: 0.3em;
+    -webkit-border-top-right-radius: 0.3em;
+	}
+.first-one input[type="text"],.first-one input[type="password"]{
+   width: 100%;
+    padding: 1em 4em 1em 1em;
+    color: #858282;
+    font-size: 16px;
+    outline: none;
+    background: #fff;
+    font-weight: 500;
+    border: 2px solid #bec3c7;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    margin: 0.7em 0;
+    background: url("../images/mail.html") no-repeat 296px 18px #fff;
+		transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.first-one input[type="password"]{
+      background: url("../images/lock.html") no-repeat 296px 18px #fff;
+  }
+  .first-one input[type="text"]:hover,.first-one input[type="password"]:hover{
+   border: 2px solid #1bbc9b;
+  }
+.submit {
+    text-align: center;
+    margin-top: 1em;
+}
+.first-one input[type="submit"]{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 15px 15px;
+    width: 48%;
+    border: none;
+    background: #34495e;
+    border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    text-transform: uppercase;
+}
+.first-one input[type="submit"]:hover,.second-one input[type="submit"]:hover{
+  background:#1bbc9b;
+  		transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+
+}
+/* Bounce To Bottom */
+a.hvr-bounce-to-bottom {
+      display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width: 100%;
+    padding: 1.1em 1em;
+    font-size: 1.1em;
+    color: #fff;
+    background: url("../images/tw.html") no-repeat 80px 15px #2daae4;
+    text-align: center;
+	    border-bottom-left-radius: 0.3em;
+    -o-border-bottom-left-radius: 0.3em;
+    -moz-border-bottom-left-radius: 0.3em;
+    -webkit-border-bottom-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    -o-border-bottom-right-radius: 0.3em;
+    -moz-border-bottom-right-radius: 0.3em;
+    -webkit-border-bottom-right-radius: 0.3em;
+}
+a.hvr-bounce-to-bottoma:hover {
+    text-decoration: none;
+}
+a.hvr-bounce-to-bottom:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2a9ed4;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  text-decoration:none;
+      border-bottom-left-radius: 0.3em;
+    -o-border-bottom-left-radius: 0.3em;
+    -moz-border-bottom-left-radius: 0.3em;
+    -webkit-border-bottom-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    -o-border-bottom-right-radius: 0.3em;
+    -moz-border-bottom-right-radius: 0.3em;
+    -webkit-border-bottom-right-radius: 0.3em;
+
+}
+a.hvr-bounce-to-bottom:hover, a.hvr-bounce-to-bottom:focus, a.hvr-bounce-to-bottom:active {
+  color: white;
+}
+a.hvr-bounce-to-bottom:hover:before, a.hvr-bounce-to-bottom:focus:before, a.hvr-bounce-to-bottom:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+/*--//first-one--*/
+/*--here--*/
+.here {
+    margin: 0.2em 0;
+    text-align: center;
+}
+.first-one-inner.lost{
+ background: #1bbc9b;
+    min-height: 400px;
+    padding: 33px;
+  
+}
+.here-bottom img {
+	border:4px solid #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	 max-width: 178px;
+}
+.here-bottom h4 {
+	color: #fff;
+	font-size: 20px;
+	 margin-top:5px;
+}
+.here-bottom h6{
+	color: #fff;
+    font-size: 14px;
+    margin-top: 9px;
+}
+/*--here--*/
+/*-- start tabs --*/
+.deals {
+    background-color: #fff;
+	    border-bottom-left-radius: 0.3em;
+    -o-border-bottom-left-radius: 0.3em;
+    -moz-border-bottom-left-radius: 0.3em;
+    -webkit-border-bottom-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    -o-border-bottom-right-radius: 0.3em;
+    -moz-border-bottom-right-radius: 0.3em;
+    -webkit-border-bottom-right-radius: 0.3em;
+}
+.resp-tabs-list,.resp-tabs-list1 {
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+li.resp-tab-item.resp-tab-active{
+  background:#ecf0f1;
+    color: #193042;
+	    border-bottom: 3px solid #01c675;
+}
+li.resp-tab-item1.resp-tab-active{
+  background:#625548 !important;
+  color:#ffffff !important;
+}
+.resp-tab-item:first-child,.resp-tab-item1:first-child{
+	border-left:none;
+}
+.resp-tab-item{
+	border-left:none;
+	background:#E5E5E5;
+	color: #193042;
+	font-size: 16px;
+	cursor: pointer;
+	
+	padding: 17px 0px;
+	display: inline-block;
+	margin: 0 0px 0 0;
+	text-align: center;
+	list-style: none;
+	float: left;
+	outline: none;
+	    border-left: 1px solid #bbb;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	border-bottom:3px solid #fff;
+	font-weight:600;
+	}
+	.resp-tab-item1{
+	background:#ecf0f1;
+	cursor: pointer;
+	padding: 5px 0px;
+	display: inline-block;
+	margin: 0 18px 0 0;
+	text-align: center;
+	list-style: none;
+	outline: none;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	border-bottom:3px solid #ecf0f1;
+}
+.resp-tab-item1 span{
+	font-size:20px;
+	color: #625548;
+	font-weight: 700;
+	padding: 0 25px;
+}
+.resp-tab-item span{
+	font-size:18px;
+	color: #2d3e50;
+	font-weight: 700;
+}
+.resp-tabs-container ,.resp-tabs-container1{
+	padding: 0px;
+	clear: left;
+}
+h2.resp-accordion,h2.resp-accordion1 {
+	cursor: pointer;
+	padding: 5px;
+	display: none;
+}
+.resp-tab-content ,.resp-tab-content1{
+	display: none;
+}
+.resp-content-active, .resp-accordion-active,.resp-content-active1, .resp-accordion-active1 {
+   display: block;
+}
+h2.resp-accordion,h2.resp-accordion1 {
+	font-size:1em;
+	margin: 0px;
+	padding: 10px 15px;
+	background:#ffe71d;
+	margin:10px 0;
+	color:#30318b;
+}
+h2.resp-accordion:hover,h2.resp-accordion1:hover{
+	background:#ffe71d;
+	text-shadow: none;
+	transition: .5s all;
+	-webkit-transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+	-moz-transition: .5s all;
+}
+
+.resp-tab-item:first-child,.resp-tab-item1:first-child  {
+border-left: none;
+}
+.resp-tab-active,.resp-tab-active1 {
+  background: #ffffff;
+}
+.resp-tab-active span{
+  color: #424448;
+}
+li.resp-tab-item1.resp-tab-active span{
+color:#ffffff;
+}
+.sap_tabs p {
+    font-size: 1em;
+    color: #3b4b5c;
+    line-height: 1.9em;
+	padding: 1.55em 2em;
+   font-weight:400;
+}
+.sap_tabs {
+    margin: 0;
+    padding: 0em 0em;
+    text-align: center;
+    -webkit-appearance: none;
+}
+/*-- stop tabs --*/
+.monthly-header-title {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    float: left;
+    padding: 18px;
+    width: 100%;
+    background: #fff;
+}
+.monthly-prev:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-left: 2px solid #222;
+    border-bottom: 2px solid #222;
+    width: 18px;
+    height: 18px;
+    margin: 4px 0 0 -5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.monthly-next:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-right: 2px solid #222;
+    border-top: 2px solid #222;
+    width: 26px;
+    height: 25px;
+    margin: -3px 0 0 -5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.monthly-event-list {
+    background: rgba(233, 235, 236, 0.9);
+    overflow: auto;
+    position: absolute;
+    top: 78px;
+    width: 100%;
+    height: calc(100% - 42px);
+    display: none;
+    -webkit-transition: .25s;
+    transition: .25s;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}</style> 
+ <div class="col-sm-12 no_padding">
+     <div class="pages_header col-sm-12 no_padding">
+	   <h3>My Account </h3>
+	 </div>
+	 
+	  <div class="col-sm-12 col-xs-12 no_padding ">
+		  <script>
+function navigate_prof(selected){
+	$('.resp-tab-item').removeClass('resp-tab-active');
+	$('#'+selected).addClass('resp-tab-active');
+	$(".resp-tabs-container").children().hide();
+	$("#"+selected+"_content").show();
+}
+
+</script>
+<style>
+.Prof_btn{
+	background: rgba(233, 30, 99, 0.68);
+background: #FF5722;
+    color: #fff;
+    padding: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 3.1em 0em;
+    float: right;
+}
+#activity_box{
+	min-height:600px;
+}
+.prof_inputs{
+	
+}
+.prof_inputs_wrap p {
+    text-align: left !important;
+}
+
+.tab_content p {
+    font-size: 1em;
+    color: #3b4b5c;
+    line-height: 1.9em;
+    padding: 0em 0em;
+    font-weight: 400;
+	text-align: left !important;
+}
+.pic_upload_btn{
+	height: auto;
+    background: rgba(0, 0, 0, 0.08);
+    padding: 9px;
+    width: 66%;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 32%;
+    left: 13%;
+}
+
+#user_pic{
+	  width:200px;
+	  height:180px;
+   
+}
+.loader_text{
+	color:red;
+	font-size:12px;
+}
+.lost{
+	    min-height: 299px !important;
+}
+.error_lbl{
+    color: #f00;
+    position: absolute;
+    background: #fff;
+    min-width: 100px;
+    min-height: 20px;
+    right: 70px;
+    padding: 5px;
+    margin-top: -105px;
+    box-shadow: 0px 0px 5px #adadad;
+	display:none;
+}
+#Add_prod_loader{
+	text-align:center;
+}
+.success_notice{
+    color: green;
+    background: #c3f18d;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-align: center;
+    float: left;
+    margin: 0px;
+}
+</style>
+<script>
+ //takes event,load_to,pic_directory_path/pic_name/section
+   var UpdateFile = function(event,load_to) {
+	var loader=$("#feltch_loader").html();
+    var output = document.getElementById(load_to);
+    output.src = URL.createObjectURL(event.target.files[0]);
+	$("#prof_pic_loader").show().html(loader);
+	//submit form
+			$("#prof_pic_loader").show().html(loader);
+			$("#prof_pic_form").ajaxForm(
+				{
+				target:'#prof_pic_loader'
+				}).submit();
+				
+	 
+  }
+  function change_password(){
+	  var current_password=$('#current_password').val();
+	  var new_password=$('#new_password').val();
+	  var confirm_password=$('#confirm_password').val();
+	  var carry_pass=$("#carry_pass").text();
+	  var loader=$("#feltch_loader").html();
+	   $(".error_lbl").hide();
+	   if($.trim(current_password)=="" )
+	    {
+		  $("#current_password_error_lbl").show().text('fill here');
+	    }
+		else if($.trim(new_password)=="")
+		{
+			  $("#new_password_error_lbl").show().text('fill here');
+		}
+		else if( $.trim(confirm_password)=="")
+		{
+			  $("#confirm_password_error_lbl").show().text('fill here');
+		}
+		 else if( $.trim(confirm_password).length<10)
+		{
+			  $("#confirm_password_error_lbl").show().text('password too short');
+		}
+	   else if($.trim(current_password)!=carry_pass)
+	    {
+		  $("#current_password_error_lbl").show().text('incorrect');
+	    }
+	   else if(new_password!=confirm_password)
+	    {
+		 $("#confirm_password_error_lbl,#new_password_error_lbl").show().text("not matching");
+	    }else if(check_special_chars(new_password))
+		{
+			$("#new_password_error_lbl").show().text("special characters denied");
+		}
+		else if(!has_number(new_password))
+		{
+			$("#new_password_error_lbl").show().html("atleast one numeric required");
+		}
+	    else
+		{
+	        show_overly(loader);
+			$("#change_pass_form").ajaxForm(
+				{
+				target:'#modal_body'
+				}).submit();
+	  }
+  }
+   function change_email(){
+	  var current_email=$('#current_email').val();
+	  var new_email=$('#new_email').val();
+	  var confirm_email=$('#confirm_email').val();
+	  var carry_email=$("#carry_email").text();
+	  var loader=$("#feltch_loader").html();
+	   $(".error_lbl").hide();
+	   if($.trim(current_email)=="" )
+	    {
+		  $("#current_email_error_lbl").show().text('fill here').addClass("animated shake");
+	    }
+		else if(!validateEmail(current_email))
+		{
+			$("#current_email_error_lbl").show().html("invalid").addClass("animated shake");;
+		}
+		else if($.trim(new_email)=="")
+		{
+			  $("#new_email_error_lbl").show().text('fill here').addClass("animated shake");;
+		}
+		else if(!validateEmail(new_email))
+		{
+			$("#new_email_error_lbl").show().html("invalid").addClass("animated shake");;
+		}
+		
+		else if( $.trim(confirm_email)=="")
+		{
+			  $("#confirm_email_error_lbl").show().text('fill here').addClass("animated shake");;
+		}
+		else if(!validateEmail(confirm_email))
+		{
+			$("#confirm_email_error_lbl").show().html("invalid").addClass("animated shake");;
+		}
+		
+		else if($.trim(current_email)!=carry_email)
+	    {
+		  $("#current_email_error_lbl").show().text('incorrect').addClass("animated shake");;
+	    }
+	    
+	   else if(new_email!=confirm_email)
+	    {
+		  $("#new_email_error_lbl,#confirm_email_error_lbl").show().html("not matching").addClass("animated shake");;
+	    }
+		
+		 
+	    else
+		{
+	        show_overly(loader);
+			$("#change_email_form").ajaxForm(
+				{
+				target:'#modal_body'
+				}).submit();
+	  }
+  }
+
+</script>
+
+<div class="col-md-12 first-one no_padding">
+	<div class="first-one-inner lost col-sm-12">
+		<div class="here">
+			<div class="here-bottom">
+				<img src="images/default.html" id="user_pic" class="user_pic"  alt="">
+					<h4></h4>
+					<span id="prof_pic_loader"></span>
+			</div>
+		</div>
+	 </div>
+	 <div class="deals col-sm-12 no_padding">
+		<div class="sap_tabs col-sm-12 no_padding">	
+				<div id="horizontalTab" class="col-sm-12 no_padding" style="display: block; width: 100%; margin: 0px;">
+					 <ul class="resp-tabs-list">
+					      <li class="resp-tab-item col-sm-4 resp-tab-active" onclick="navigate_prof('Change_pic_tab')" id="Change_pic_tab">Edit Profile Picture</li>
+						  <li class="resp-tab-item col-sm-4 "  onclick="navigate_prof('Change_pass_tab')" id="Change_pass_tab">Change Password</li>
+						  <li class="resp-tab-item col-sm-4 " onclick="navigate_prof('Change_emial_tab')" id="Change_emial_tab">Change & Add Email</li>
+					 </ul>				  	 
+					<div class="resp-tabs-container">
+						    <div class="col-sm-12 tab_content " id="Change_pic_tab_content">
+							  <div class="col-sm-4"></div>
+							   <div class="col-sm-4">
+							       <h3 class="Prof_btn" style="text-align:right;">
+								   <form  action="http://liniacle.com/backup/projects/essywriters/accounts/clients/accounts/clients/Profile/update_file.php?uid=" name="prof_pic_form" id="prof_pic_form" method="POST" enctype="multipart/form-data">
+								      <input type="file"  class="pic_upload_btn" name="upload_user_pic_file"  onchange="UpdateFile(event,'user_pic')" id="upload_user_pic_file"> 
+								    </form>
+								   <span class="glyphicon glyphicon-arrow-up "></span></h3>
+							   </div>
+							</div>
+							
+							<div class="col-sm-12 tab_content not_shown" id="Change_pass_tab_content">
+							 <form    action="http://liniacle.com/backup/projects/essywriters/accounts/clients/accounts/clients/Profile/update_password.php?uid=" name="change_pass_form" id="change_pass_form" method="POST" enctype="multipart/form-data">
+							   <div class="col-sm-10  prof_inputs_wrap">
+								   <p class="col-sm-4">
+								   Your Current Password:
+								   <input type="password" value="macharia" class="prof_inputs" id="current_password">
+								   <span class="error_lbl" id="current_password_error_lbl">X</span>
+								   </p>
+									<p  class="col-sm-4">
+									New Password:
+								   <input type="password" class="prof_inputs" name="new_password" id="new_password">
+								    <span class="error_lbl" id="new_password_error_lbl">X</span>
+								   </p>
+									<p  class="col-sm-4">
+								   Confirm Password:
+								   <input type="password" class="prof_inputs" id="confirm_password">
+								    <span class="error_lbl" id="confirm_password_error_lbl">X</span>
+								   </p>
+									<p id="change_password_loader" style="color:red;" class="loader_text"></p>
+                                      </div>
+								    <center>
+								   <h3 class="Prof_btn col-sm-2" onclick="change_password()">change password</h3>
+								  </center>
+							 
+							  </form>
+							</div>
+							
+							
+							<div class="col-sm-12 tab_content not_shown" id="Change_emial_tab_content">
+							<form    action="http://liniacle.com/backup/projects/essywriters/accounts/clients/accounts/clients/Profile/update_email.php?uid=" name="change_email_form" id="change_email_form" method="POST" enctype="multipart/form-data">
+					 
+							   <div class="col-sm-10">
+							    <p class="col-sm-4">
+							   Your Current Email:
+							   <input type="text" class="prof_inputs" value="" name="current_email" id="current_email"  required>
+							    <span class="error_lbl" id="current_email_error_lbl">X</span>
+							   </p>
+							    <p class="col-sm-4">
+							    New Email:
+							   <input type="text" class="prof_inputs" name="new_email" id="new_email" required>
+							    <span class="error_lbl" id="new_email_error_lbl">X</span>
+							   </p>
+							    <p class="col-sm-4">
+							   Confirm Email:
+							    <input type="text" class="prof_inputs"  name="confirm_email" id="confirm_email" required>
+							    <span class="error_lbl" id="confirm_email_error_lbl">X</span>
+							   </p>
+							     <p id="change_email_loader" style="color:red;" class="loader_text"></p>
+							     <center>
+                                 
+								   <h3 class="Prof_btn col-sm-2" onclick="change_email()">change password</h3>
+								 </center>
+							  </div>
+							 </form>
+
+							</div>
+							<!---
+							<div class="col-sm-12 tab_content not_shown" id="Change_details_tab_content">
+							   <div class="col-sm-12">
+							   <h2 class="county_traffic_lbl col-sm-12 acc_top_lbl">My Activities for Date  <span id="date_lbl">2017-04-03</span></h2>
+							     <div class="col-sm-4"style=" display:inline-block;">
+									<div  class="col-sm-12" style="display:inline-block;display:block !important;">
+										<input type="text" id="mytarget" value="2017-04-03" onchange="get_date(this.value)">
+										<div class="monthly col-sm-12" id="mycalendar2" style="display:block !important;"></div>
+									</div>
+								 </div>
+								 <div class="col-sm-8 col-xs-12" id="activity_box">
+								    <br />
+<b>Warning</b>:  include(get_activities.php): failed to open stream: No such file or directory in <b>/home/liniacle/public_html/backup/projects/essywriters/accounts/clients/Profile/admin_profile.php</b> on line <b>314</b><br />
+<br />
+<b>Warning</b>:  include(get_activities.php): failed to open stream: No such file or directory in <b>/home/liniacle/public_html/backup/projects/essywriters/accounts/clients/Profile/admin_profile.php</b> on line <b>314</b><br />
+<br />
+<b>Warning</b>:  include(): Failed opening 'get_activities.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in <b>/home/liniacle/public_html/backup/projects/essywriters/accounts/clients/Profile/admin_profile.php</b> on line <b>314</b><br />
+								 </div>
+							</div>
+							-->
+				    </div>	
+		</div>				
+	 </div>
+  </div>
+ </div>	  </div>
+	 
+</div>  </div>
+  <div class="col-sm-12 pages not_shown" id="NewOrder">
+     <style>
+#file_attachment{
+	max-width: 208px !important;
+    margin: 0px !important;;
+    padding: 6px !important;;
+    box-shadow: 0px 0px 0px #000 !important;;
+	cursor:pointer;
+}
+#num_sources{
+	    min-width: 210px !important;
+}
+#order_description_client {
+    min-height: 120px;
+    color: #989898;
+    font-size: 12px;
+    font-weight: bold;
+}
+.Order_btn_wrap{
+	    padding: 27px;
+    text-align: center;
+}
+.order_btn{
+	  padding: 9px !important;
+    text-align: center !important;
+    background: rgba(104, 195, 74, 0.55) !important;
+    margin: 0px;
+    color: #fff !important;
+    border-radius: 10px;
+}
+.order_focus{
+	position: absolute;
+    margin-top: -27%;
+    left: 72%;
+    z-index: 100;
+    height: 28%;
+    box-shadow: 0px 0px 7px #8c8888;
+    font-size: 10px;
+    font-weight: bold;
+    color: #666;
+}
+#close_desc{
+	color:#f00;
+}
+.formTableUH td {
+    height: auto;
+    padding: 2px 0;
+    font: normal 13px/32px arial, sans-serif;
+    color: rgba(158, 158, 158, 0.85);
+    text-align: left;
+    vertical-align: top;
+} 
+</style>
+<script>
+ $(document).ready(function(){
+/*lpre_order_form_order_type click*/
+   $("#order_type").change(function(){
+	   var input_value= this . value;
+	   var option = $("#order_type option[value='"+ input_value +"']").text();
+        $("#order_type") . next()  .text(option) ;
+   });
+   
+    $("#order_subject").change(function(){
+	   var input_value= this . value;
+	   var option = $("#order_subject option[value='"+ input_value +"']").text();
+	   
+        $("#order_subject") . next()  .text(option) ;
+   });
+   
+   $("#deadline_time").change(function(){
+	   var input_value= this . value;
+	   var option = $("#deadline_time option[value='"+ input_value +"']").text();
+	   
+        $("#deadline_time") . next()  .text(option) ;
+   });
+ });
+ 
+ 
+ /*form calender*/
+$(document).ready(function(){
+
+$('#mycalendar').monthly({
+mode: 'event',
+xmlUrl: 'events.xml'
+});
+
+$('#mycalendar3').monthly({
+mode: 'picker',
+target: '#mytarget3',
+setWidth: '100%',
+startHidden: true,
+showTrigger: '#mytarget3',
+stylePast: true,
+disablePast: false,
+disablefuture: false
+});
+
+$(".m-d ,.monthly-day,.monthly-day-pick").click(function(){
+   var selected_date=$("#mytarget3").val();
+   $("#mycalendar3,#close_calender").hide();
+
+});
+$(".hasDatepicker").click(function(){
+ $("#mycalendar3,#close_calender").show();  
+});
+
+$(".close_x").click(function(){
+  var id=this . id;
+  $("#mycalendar3,#"+id).hide();
+});
+ /*end form calender*/	  
+	 //show overly
+ function show_overly(return_val){
+		   $(".overlay").show(); 
+		   $("#modal_body").html(return_val).css({"text-align":"center","margin":"0px auto","font-weight":"bold"});
+ }
+ // auto culcurate order pages
+ $("#order_pages").change(function(){
+	      var pages=$( this ).val();
+		  var new_val= pages * 1 * 275;
+		  $("#client_order_form_words").text(new_val);	   
+})
+
+/*/auto culcurate rates*/
+	function getTotalCost(pages,level){
+		   var total=Math .round(pages*1 * level *100)/100;
+		   $("#auto_total_cost_client").text(total);
+	}
+	function  getRates(pages ,Days ,level){
+		var Total;
+		 
+		if(Days>=30)
+		{ 
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,7); break;
+				case "College" : getTotalCost(pages,8); break;
+				case "University" : getTotalCost(pages,9); break;
+				case "Masters" : getTotalCost(pages,9); break;
+				case "PHD" : getTotalCost(pages,9); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+			 
+		} 
+		else if(Days >= 20 &&  Days <= 29)
+		{
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,7.5); break;
+				case "College" : getTotalCost(pages,8.5); break;
+				case "University" : getTotalCost(pages,10); break;
+				case "Masters" : getTotalCost(pages,10); break;
+				case "PHD" : getTotalCost(pages,11); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+			 
+		}
+		else if(Days >= 10 &&  Days <=19)
+		
+		{
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,11); break;
+				case "College" : getTotalCost(pages,12); break;
+				case "University" : getTotalCost(pages,13); break;
+				case "Masters" : getTotalCost(pages,13.5); break;
+				case "PHD" : getTotalCost(pages,13.5); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+		}
+		else if(Days >= 7 &&  Days <=9)
+		{
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,15); break;
+				case "College" : getTotalCost(pages,15.5); break;
+				case "University" : getTotalCost(pages,16); break;
+				case "Masters" : getTotalCost(pages,16); break;
+				case "PHD" : getTotalCost(pages,16); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+		}
+		else if(Days >= 4 &&  Days <=6){
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,16); break;
+				case "College" : getTotalCost(pages,17); break;
+				case "University" : getTotalCost(pages,17.5); break;
+				case "Masters" : getTotalCost(pages,17.75); break;
+				case "PHD" : getTotalCost(pages,17.99); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+		}
+		else if(Days >= 2 && Days <= 3){
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,18); break;
+				case "College" : getTotalCost(pages,20); break;
+				case "University" : getTotalCost(pages,22); break;
+				case "Masters" : getTotalCost(pages,23.5); break;
+				case "PHD" : getTotalCost(pages,25); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+		}
+		else if(Days >= 1 &&   Days<= 2){
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,18.5); break;
+				case "College" : getTotalCost(pages,22); break;
+				case "University" : getTotalCost(pages,23.5); break;
+				case "Masters" : getTotalCost(pages,24); break;
+				case "PHD" : getTotalCost(pages,27); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+		}
+		else if(Days >= 0.5 &&  Days <= 0.9){
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,24); break;
+				case "College" : getTotalCost(pages,25); break;
+				case "University" : getTotalCost(pages,26); break;
+				case "Masters" : getTotalCost(pages,228); break;
+				case "PHD" : getTotalCost(pages,28); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+		}
+		else if(Days >= 0.25  &&  Days<= 0.49 ){
+			switch (level){
+				case "HighSchool" : getTotalCost(pages,30); break;
+				case "College" : getTotalCost(pages,31); break;
+				case "University" : getTotalCost(pages,31); break;
+				case "Masters" : getTotalCost(pages,33); break;
+				case "PHD" : getTotalCost(pages,33); break;
+				default :alert("rates calurator failed , continue anyway");
+			}
+		}
+		else{
+			 
+		}
+		
+	}
+	
+	 $(".auto_culcurate_rates").focusout(function(){
+	    var level=$.trim($("input[name=writer_level]").val());
+ 
+		var pages=$("#order_pages").val();
+			  var OneDay=24*60*60*1000;
+			  var today=new Date();
+			  var EndDate=$("#mytarget3").val()
+			  var endDate=new Date(EndDate);
+			  var diff=new Date(endDate-today);
+		      var Days=Math . round(diff/1000/60/60/24*100)/100;
+			  getRates(pages ,Days+1 ,level);
+		 
+	 });
+	  $(".LevelRadio").click(function(){
+	    var level=$( this ).val();
+		var pages=$("#order_pages").val();
+			  var OneDay=24*60*60*1000;
+			  var today=new Date();
+			  var EndDate=$("#mytarget3").val()
+			  var endDate=new Date(EndDate);
+			  var diff=new Date(endDate-today);
+		      var Days=Math . round(diff/1000/60/60/24*100)/100;
+			  getRates(pages ,Days+1 ,level);
+		 
+	 }); 
+	 $(".auto_culcurate_rates").mouseout(function(){
+	      var level=$.trim($("input[name=writer_level]").val());
+		var pages=$("#order_pages").val();
+			  var OneDay=24*60*60*1000;
+			  var today=new Date();
+			  var EndDate=$("#mytarget3").val()
+			  var endDate=new Date(EndDate);
+			  var diff=new Date(endDate-today);
+		      var Days=Math . round(diff/1000/60/60/24*100)/100;
+			  getRates(pages ,Days+1 ,level);
+		 
+	 }); 
+ /*/auto culcurate rates*/
+ /*/save data */
+  $("#create_order_btn").click(function(){
+		  var loader=$.trim($("#feltch_loader").html());
+		  var paper_type=$.trim($("#order_type").val());
+		  var subject =$.trim($("#order_subject").val());
+		  var topic=$.trim($("#order_topic").val());
+		  var pages=$.trim($("#order_pages").val());
+		  var deadline=$.trim($("#deadline_time").val());
+		  var end_date=$.trim($("#mytarget3").val());
+		  var order_description=$.trim($("#order_description_client").val());
+		  var num_sources=$.trim($("#num_sources").val());
+		  var servicetype=$.trim($("input[name=servicetype]").val());
+		  var writer_level=$.trim($("input[name=writer_level]").val());
+		  var order_style=$.trim($("input[name=order_style]").val());
+		  var email=$.trim($("#carry_email").text());
+		  var name=$.trim($("#carry_name").text());
+		   
+		   if(paper_type.length==0){
+			   show_overly('paper type required!!!');
+		   }else if(subject.length==0){
+			   show_overly('paper subject needed');
+		   }else if(topic.length==0){
+			   show_overly('enter the topic');
+		   }else if(pages.length==0){
+			   show_overly('number of pages needs');
+		   }else if(deadline.length==0){
+			   show_overly('specify deadline please');
+		   }else if(end_date.length==0){
+			   show_overly('specify end date');
+		   }else if(order_description.length==0){
+			   show_overly('  description required');
+		   }else{
+			  show_overly( loader +'<h3><br> ...saving ...please wait.');
+					$("#client_pre_order_form").ajaxForm(
+						{
+						target:'#modal_body',
+						success:function(){
+							 var status=$.trim($("#modal_body").text());
+							 if(status=="success"){
+								    $("#my_orders").click();
+									$(".close_float_btn").click();
+							 }
+						}
+						}).submit();
+						
+		   }		
+	  });
+});
+
+ /*/form calender*/
+</script>
+   <div class="col-sm-12 no_padding">
+     <div class="pages_header col-sm-12 no_padding">
+	   <h3>Submit New Order</h3>
+	 </div>
+	   <form  class="col-sm-12"  id="client_pre_order_form" name="client_pre_order_form" action="http://liniacle.com/backup/projects/essywriters/accounts/clients/accounts/clients/NewOrder/save_new_order.php?user_email=" method="POST" enctype="multipart/form-data">
+          <div class="col-sm-4" style="margin-top: 3em;">
+            
+			      <table class="formTableUH col-sm-12" >
+						<tbody><tr>
+							<td>
+								<label for="pre_order_form_order_type">I need:</label>
+							</td>
+							<td>
+								<div class="select-wrapper">
+									<select id="order_type" name="order_type" class="selTextRound select" style="z-index: 10; opacity: 0;">
+									    <option value="">Select Type of paper</option>
+									   <option value="Essay (any type)">Essay (any type)</option>
+									   <option value="Admission Essay">Admission Essay</option>
+									   <option value="Annotated Bibliography">Annotated Bibliography</option>
+									   <option value="Argumentative Essay">Argumentative Essay</option>
+									   <option value="Article Review">Article Review</option>
+									   <option value="Book/Movie Review">Book/Movie Review</option>
+									   <option value="Business Plan">Business Plan</option>
+									   <option value="Case Study">Case Study</option>
+									   <option value="Coursework">Coursework</option>
+									   <option value="Creative Writing">Creative Writing</option>
+									   <option value="Critical Thinking">Critical Thinking</option>
+									   <option value="Presentation or speech">Presentation or speech</option>
+									   <option value="Research Paper">Research Paper</option>
+									   <option value="Research Proposal">Research Proposal</option>
+									   <option value="Term Paper">Term Paper</option>
+									   <option value="Thesis/Dissertation Chapter">Thesis/Dissertation Chapter</option>
+									   <option value="Other">Other</option>
+									 </select>
+									  <span class="select" style="color: rgb(177, 169, 187);">Select Type of paper</span>
+									</div>
+								<div class="errorText"></div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="pre_order_form_order_subject">On:</label>
+							</td>
+							<td>
+								<div class="select-wrapper">
+									<select id="order_subject" name="order_subject" class="selTextRound select" style="z-index: 10; opacity: 0;">
+									<option value="">Select Subject area</option>
+									<option value="Accounting">Accounting</option>
+									<option value="Advertising">Advertising</option>
+									<option value="Aeronautics">Aeronautics</option>
+									<option value="African-American Studies">African-American Studies</option>
+									<option value="Agricultural Studies">Agricultural Studies</option>
+									<option value="Alternative Medicine">Alternative Medicine</option>
+									<option value="American History">American History</option>
+									<option value="American Literature">American Literature</option>
+									<option value="Anthropology">Anthropology</option>
+									<option value="Antique Literature">Antique Literature</option>
+									<option value="Application Essay">Application Essay</option>
+									<option value="Architecture">Architecture</option>
+									<option value="Art">Art</option>
+									<option value="Asian Literature">Asian Literature</option>
+									<option value="Asian Studies">Asian Studies</option>
+									<option value="Astronomy">Astronomy</option>
+									<option value="Aviation">Aviation</option>
+									<option value="Biology">Biology</option>
+									<option value="Business">Business</option>
+									<option value="Canadian Studies">Canadian Studies</option>
+									<option value="Case Study">Case Study</option>
+									<option value="Chemistry">Chemistry</option>
+									<option value="Communication Strategies">Communication Strategies</option>
+									<option value="Communications and Media">Communications and Media</option>
+									<option value="Company Analysis">Company Analysis</option>
+									<option value="Computer Science">Computer Science</option>
+									<option value="Creative Writing">Creative Writing</option>
+									<option value="Criminology">Criminology</option>
+									<option value="Dance">Dance</option>
+									<option value="Design Analysis">Design Analysis</option>
+									<option value="Drama">Drama</option>
+									<option value="E-Commerce">E-Commerce</option>
+									<option value="East European Studies">East European Studies</option>
+									<option value="Economics">Economics</option>
+									<option value="Education">Education</option>
+									<option value="Education Theories">Education Theories</option>
+									<option value="Engineering">Engineering</option>
+									<option value="English">English</option>
+									<option value="English Literature">English Literature</option>
+									<option value="Environmental Issues">Environmental Issues</option>
+									<option value="Ethics">Ethics</option>
+									<option value="Finance">Finance</option>
+									<option value="Geography">Geography</option>
+									<option value="Geology">Geology</option>
+									<option value="Healthcare">Healthcare</option>
+									<option value="History">History</option>
+									<option value="Holocaust">Holocaust</option>
+									<option value="International Affairs/Relations">International Affairs/Relations</option>
+									<option value="Internet">Internet</option>
+									<option value="Investment">Investment</option>
+									<option value="IT Management">IT Management</option>
+									<option value="Journalism">Journalism</option>
+									<option value="Latin-American Studies">Latin-American Studies</option>
+									<option value="Law">Law</option>
+									<option value="Legal Issues">Legal Issues</option>
+									<option value="Linguistics">Linguistics</option>
+									<option value="Literature">Literature</option>
+									<option value="Logistics">Logistics</option>
+									<option value="Management">Management</option>
+									<option value="Marketing">Marketing</option>
+									<option value="Mathematics">Mathematics</option>
+									<option value="Medicine and Health">Medicine and Health</option>
+									<option value="Movies">Movies</option>
+									<option value="Music">Music</option>
+									<option value="Native-American Studies">Native-American Studies</option>
+									<option value="Nature">Nature</option>
+									<option value="Nursing">Nursing</option>
+									<option value="Nutrition">Nutrition</option>
+									<option value="Painting">Painting</option>
+									<option value="Pedagogy">Pedagogy</option>
+									<option value="Pharmacology">Pharmacology</option>
+									<option value="Philosophy">Philosophy</option>
+									<option value="Physics">Physics</option>
+									<option value="Political Science">Political Science</option>
+									<option value="Psychology">Psychology</option>
+									<option value="Public Relations">Public Relations</option>
+									<option value="Religion and Theology">Religion and Theology</option>
+									<option value="Shakespeare Studies">Shakespeare Studies</option>
+									<option value="Sociology">Sociology</option>
+									<option value="Sport">Sport</option>
+									<option value="Teacher's Career">Teacher's Career</option>
+									<option value="Technology">Technology</option>
+									<option value="Theatre">Theatre</option>
+									<option value="Tourism">Tourism</option>
+									<option value="Trade">Trade</option>
+									<option value="Web design">Web design</option>
+									<option value="West European Studies">West European Studies</option>
+									</select>
+									<span class="select" style="color: rgb(177, 169, 187);">Select Subject area</span>
+									</div>
+								<div class="errorText"></div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="pre_order_form_order_name">Topic:</label>
+							</td>
+							<td>
+								<input type="text" id="order_topic" name="order_topic" maxlength="255" placeholder="What is it about?" class="inputTextRound aboutUH">
+								<div class="errorText"></div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="pre_order_form_order_pages">Pages:</label>
+							</td>
+							<td>
+								<div>
+									<input type="text" id="order_pages" name="order_pages" class="auto_culcurate_rates inputTextRound lengthUH" value="1">(<span id="client_order_form_words">275</span> words )
+									<div class="helpEl tooltipCss bidTotal">
+										<div class="tooltipCustomMobile">
+											Specify number of pages your paper should contain.
+										</div>
+									</div>
+								</div>
+								<div class="errorText"></div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>Until:</label>
+							</td>
+							<td>
+								<div class="untilInputWrap">
+									<div id="pre_order_form_order_deadline">
+									<div class="select-wrapper customSelGum until">
+									<select id="deadline_time" name="deadline_time" class="auto_culcurate_rates inputTextRound untilInputL selTextRound select" style="z-index: 10; opacity: 0;">
+									    <option value="00:01 AM" selected>00:01 AM</option>
+										<option value="01:00 AM">1 AM</option>
+										<option value="02:00 AM">2 AM</option>
+										<option value="03:00 AM">3 AM</option>
+										<option value="04:00 AM">4 AM</option>
+										<option value="05:00 AM">5 AM</option>
+										<option value="06:00 AM">6 AM</option>
+										<option value="07:00 AM">7 AM</option>
+										<option value="08:00 AM">8 AM</option>
+										<option value="09:00 AM">9 AM</option>
+										<option value="10:00 AM">10 AM</option>
+										<option value="11:00 AM">11 AM</option>
+										<option value="12:00 PM">11:59 AM</option>
+										<option value="01:00 PM">1 PM</option>
+										<option value="02:00 PM">2 PM</option>
+										<option value="03:00 PM">3 PM</option>
+										<option value="04:00 PM">4 PM</option>
+										<option value="05:00 PM">5 PM</option>
+										<option value="06:00 PM">6 PM</option>
+										<option value="07:00 PM">7 PM</option>
+										<option value="08:00 PM">8 PM</option>
+										<option value="09:00 PM">9 PM</option>
+										<option value="10:00 PM">10 PM</option>
+										<option value="11:00 PM">11 PM</option>
+									</select>
+										<span class="select" style="color: rgb(177, 169, 187);">00:01 AM</span>
+										</div>
+										<input type="text"   id="mytarget3" name="mytarget3"  value="2017/04/03" class="auto_culcurate_rates inputTextRound  untilInputR hasDatepicker" placeholder="Date"  style="z-index: 15; opacity: .46677;">
+									  <span class="close_x" id="close_calender">x</span>
+									</div> 
+									
+									<div class="monthly " id="mycalendar3"></div>
+								</div>
+								<div class="errorText"></div>
+							</td>
+						</tr>
+						 <tr>
+						  <td></td>
+						  <td><h3 class="auto_price_lbl">Total Cost = $ <span id="auto_total_cost_client">9.00</span></h3></td>
+						</tr>
+					</tbody>
+					</table>
+ 
+				
+            </div>
+			
+		   <div class="col-sm-8" style=" margin-top: 3em;padding: 0px 71px 0px 0px;">
+				<div class="col-sm-4 ">
+				<label  class="form_lbl">Type of service</label>:
+				<div class="right">
+					<div id="order_product_service" class="radioRCB">
+					<div class="itemRowRight">
+						<input type="radio" id="service1" name="servicetype" class="radioStyle" value="From  Scratch" checked="checked">
+						<label for="order_product_service_1"> From Scratch</label>
+					</div>
+					<div class="itemRowRight">
+						<input type="radio" id="service2" name="servicetype" class="radioStyle" value="Rewriting">
+						<label for="order_product_service_2">Rewriting</label>
+					</div>
+					<div class="itemRowRight">
+						<input type="radio" id="service3" name="servicetype" class="radioStyle" value="Editing">
+						<label for="order_product_service_3">Editing</label>
+					</div>
+					</div>
+						<div class="errorText">
+					</div>
+
+				</div>
+				 <div class="col-sm-12 "><br>
+					<label class="form_lbl">Writer Level</label>:
+					<div class="right">
+						<div id="order_product_wrlevel" class="radioRCB">
+						   <div class="itemRowRight">
+							 <input type="radio" id="writer_level1" name="writer_level" class="LevelRadio radioStyle" value="HighSchool">
+						     <label for="order_product_wrlevel_1">HighSchool</label>
+						   </div>
+						   <div class="itemRowRight">
+							 <input type="radio" id="writer_level3" name="writer_level" class="LevelRadio radioStyle" value="College">
+						     <label for="order_product_wrlevel_3">College</label>
+						   </div>
+						   <div class="itemRowRight">
+							 <input type="radio" id="writer_level2" name="writer_level" class="LevelRadio radioStyle" value="University" checked="checked">
+						     <label for="order_product_wrlevel_2">University</label>
+						   </div>
+
+						   <div class="itemRowRight">
+							 <input type="radio" id="writer_level3" name="writer_level" class="LevelRadio radioStyle" value="Masters">
+						     <label for="order_product_wrlevel_3">Masters</label>
+						   </div>
+						   
+						   <div class="itemRowRight">
+							 <input type="radio" id="writer_level4" name="writer_level" class="LevelRadio radioStyle" value="PHD">
+						     <label for="order_product_wrlevel_3">PHD</label>
+						   </div>
+						   
+						   </div>
+						<div class="errorText">
+						</div>
+					</div>
+			   </div>
+			 </div>
+			 <div class="col-sm-4 no_padding">
+				<label class="form_lbl">Format of citation</label>:
+				<div class="right">
+					<div id="order_product_style" class="radioRCB">
+						 <div class="itemRowRight">
+						   <input type="radio" id="order_product_style_1" name="order_style" class="auto_culcurate_rates radioStyle" value="MLA">
+						   <label for="order_product_style_1">MLA</label>
+						 </div><div class="itemRowRight">
+							<input type="radio" id="order_product_style_2" name="order_style" class="auto_culcurate_rates radioStyle" value="APA" checked="checked">
+							<label for="order_product_style_2">APA</label>
+						  </div>
+						  <div class="itemRowRight">
+							<input type="radio" id="order_product_style_3" name="order_style" class="auto_culcurate_rates radioStyle" value="Chicago/Turabian">
+							<label for="order_product_style_3">Chicago/Turabian</label>
+						  </div>
+						  <div class="itemRowRight">
+						   <input type="radio" id="order_product_style_4" name="order_style" class="radioStyle" value="Not Applicable">
+						   <label for="order_product_style_4">Not Applicable</label>
+						  </div>
+						  <div class="itemRowRight">
+							<input type="radio" id="order_product_style_5" name="order_style" class="radioStyle" value="Others">
+							<label for="order_product_style_5">Other</label>
+						  </div>
+					  </div>
+					<div class="errorText">
+				</div>
+
+				</div>
+			 </div>
+			<div class="col-sm-4 ">
+				<label class="form_lbl">Number of sources</label>:
+				<input type="text" id="num_sources"  name="num_sources" class="auto_culcurate_rates inputTextRound citedRes">
+				<div class="col-sm-12  no_padding">
+				<br>
+					<label class="form_lbl glyphicon glyphicon-paperclip">Attachments</label>:
+					              <div class="helpEl tooltipCss bidTotal">
+										<div class="tooltipCustomMobile">
+											more than one files should be zipped before sending
+										</div>
+									</div>
+					<input type="file" id="file_attachment"  name="file_attachment" class="inputTextRound citedRes" style="min-width:160px;">
+				</div>
+			</div>
+		   </div>
+		 
+		   <div class="col-sm-12">
+			<textarea id="order_description_client" name="order_description_client"  class="inputTextRound auto_culcurate_rates  col-sm-12 descriptionBox" placeholder="Type your order description here or upload your material below..."></textarea>
+		   </div>
+		   <div class="Order_btn_wrap col-sm-12">
+				<input type="button" value="Place an order" id="create_order_btn" name="create_order_btn" class="btn order_btn col-sm-12">
+			</div>
+		
+       </form>
+	</div>	     </div>
+   
+   <div class="col-sm-12 pages not_shown" id="MyOrders">
+      <style>
+  .real{
+	margin:0 auto;
+	
+	
+}
+
+ul.service_grid{
+        list-style: none;
+    margin-bottom: 12px;
+}
+i.s1{
+	width: 67px;
+	height: 67px;
+	background: url(images/3.html) round;
+	display: block;
+	float: left;
+	margin-right: 1em;
+	border-radius:100%;
+}
+i.s2{
+	width: 67px;
+	height: 67px;
+	background: url(images/3.html) round;
+	display: block;
+	float: left;
+	margin-right: 1em;
+	border-radius:100%;
+}
+ul.service_grid li.desc1 {
+	    overflow: hidden;
+    text-align: left;
+    padding: 1em 2em 0em 2em;
+    box-shadow: 0px 0px 4px #bbb;
+}
+ul.service_grid li.desc1 p{
+	color: #6e6f6f;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.8em;
+}
+.offering h3 {
+	color: #96a6a7;
+	font-size: 1em;
+	cursor:pointer;
+	font-weight:100;
+}
+.real:hover i.s1, .real:hover i.s2{
+	transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-o-transform: rotateY(360deg);
+	-webkit-transition: 0.8s;
+	-moz-transition: 0.8s;
+	-o-transition: 0.8s;
+	transition: 0.8s;
+}
+.job_title{
+    cursor: pointer;
+    color: #8bc058;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: .1em 0;
+
+}
+p.beaut-link {
+    font-size: .96em;
+    text-transform: capitalize;
+    color: #999;
+	margin-top:.2em;
+	font-style: italic;
+}
+p.beaut-link a {
+    text-decoration: none;
+    color: #E56814;
+}
+p.beaut-link span {
+    color: #E56814;
+}
+.beaut-bottoms p {
+    font-size: 1em;
+    color: #999;
+}
+.glyphicon {
+    font-size: 1.5em;
+	vertical-align: top;
+	margin-right: .5em;
+}
+p.beaut-link1 {
+    font-size: .96em;
+    color: #999;
+    line-height: 1.8em;
+    margin: 1em 0;
+}
+a.button {
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #E56814;
+}
+.beaut-bottoms {
+    padding: 1em 0;
+    border-top: 2px solid #eee;
+    margin-top: 2em;
+}
+.beaut-grid {
+    border-right: 1px solid #eee;
+	cursor: pointer;
+}
+.beaut-grid:nth-child(4) {
+    border-right: 0px;
+}
+.clients {
+    text-align: center;
+    margin-top: 3em;
+    background: #222;
+	 padding: 2em 0;
+}
+.clients h4 {
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: capitalize;
+}
+.client-grids {
+    padding: 3em 0;
+}
+.almost,.available{
+	font-size: 15px;
+    background: #9dc973;
+    padding: 6px;
+    float: right;
+    color: #fff;
+    margin-top: 1.9em;
+	text-align: center;
+}
+
+.job_expiry_status{
+	    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  color: #7d706c;
+}
+.desc1:before{
+       content: '';
+    position: absolute;
+    border-style: ;
+    border-width: 24px 17px 17px 0;
+    border-color: transparent #7F7F7F;
+    display: block;
+    width: 0;
+    z-index: 0;
+    left: 82px;
+    top: 12px;
+}
+.desc1:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 24px 17px 17px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+      left: 82px;
+    top: 12px;
+}
+.s1 span{
+	    color: #968544;
+    margin-top: 5.67em;
+    float: left;
+    font-size: .89em;
+}
+.job_timeline ul{
+	top: 2.5%;
+}
+.job_timeline>.latest-today {
+	    margin: 0em 0em auto 0em;
+}
+.job_inputs{
+	    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    border-radius: 0px 0px 3px 5px;
+    color: maroon;
+    min-height: 34px;
+    padding: 5px;
+}
+.job_form_box h3{
+	font-size: 1.4456em;
+    color: #78909C !important;
+    margin: 0.9em 0em 0.4em 0em;
+    font-family: 'SignikaNegative-Regular';
+    cursor: pointer;
+    padding: .3em !important;
+    background: #e9ebee !important;;
+}
+.job_prof_form{
+	    background-color: #E0E0E0;
+    height: 88px;
+    cursor: pointer;
+    width: 100%;
+    background-image: url(images/icons/prof.html);
+    background-repeat: round;
+    background-size: cover;
+    padding-top: 148%;
+    border-radius: 100%;
+    overflow: hidden;
+	border: 1px solid #ccc;
+}
+.job_form_header{
+	text-align:left;
+}
+.job_form_header h4 {
+    color: #7c94a0;
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: 'SignikaNegative-Regular';
+}
+.recepient_mail{
+	color:#000;
+}
+.autofill_btn{
+	    float: none !important;
+		cursor:pointer;
+}
+.job_form_box_header{
+	    background: #fbfdf9;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+.job_form_box_body{
+	    background: #fbfdf9;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding:0em;
+}
+.job_form_box{
+	    margin: 0em 0em 0em 0em;
+}
+.job_timeline{
+	padding:0px;
+	margin:0px;
+}
+#jobs_right_panel{
+	background:#fff; 
+	height:100%;
+	min-height:600px;
+}
+.news_letter_form h4{
+	color: #FF9800;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.news_letter_form p{
+	color: #757575;
+    font-size: 12px;
+}
+.tips li{
+	color: #757575;
+    font-size: 12px;
+}
+.completed{
+    -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+
+    -webkit-transform: rotate(-37deg);
+    position: absolute;
+    margin-left: -44px;
+    background: rgba(157, 201, 115, 0.84);
+    padding: 14px;
+    top: 2px;
+    z-index: 10;
+    color: #fff;
+    border-radius: 40px 40px 40px 40px;
+		transform: rotate(-35deg);
+		margin-left: -3px;
+		left:0px;
+}
+.inprogress{
+    -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+    -webkit-transform: rotate(-37deg);
+    position: absolute;
+    margin-left: -44px;
+        background: rgba(142, 148, 85, 0.49);
+    padding: 14px;
+    top: 2px;
+    z-index: 10;
+    color: #fff;
+    border-radius: 40px 40px 40px 40px;
+	transform: rotate(-35deg);
+		margin-left: -3px;
+		left:0px;
+}
+.cancelled{
+ -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+    -webkit-transform: rotate(-37deg);
+    position: absolute;
+    margin-left: -44px;
+    background: #fcc;
+    padding: 14px;
+    top: 2px;
+    z-index: 10;
+    color: #fff;
+	transform: rotate(-35deg);
+		margin-left: -3px;
+		left:0px;
+    border-radius: 40px 40px 40px 40px;
+}
+.unattended{
+   -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+    -webkit-transform: rotate(-37deg);
+    position: absolute;
+    margin-left: -44px;
+    background: #ccc;
+    padding: 14px;
+    top: 2px;
+    z-index: 10;
+    color: #fff;
+    border-radius: 40px 40px 40px 40px;
+	transform: rotate(-35deg);
+		margin-left: -3px;
+		left:0px;
+}
+.job_title {
+    cursor: pointer;
+    color: #8bc058;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: .1em 3em;
+}
+.timeLbl{
+    min-width: 14px;
+    float: left;
+    padding: 5px;
+}
+.time{
+     padding: 5px 0px;
+    position: absolute;
+    right: 0px;
+    max-width: 347px;
+    top: 0px;
+    color: #cac5c5;
+    font-weight: bold;
+}
+.tlbl{
+float:left;
+    padding: 5px;
+}
+.time_colons{
+ float:left;
+     padding: 5px;
+}
+.day_left{
+
+}
+.day_left {
+    text-align: right;
+    position: absolute;
+    right: 26px;
+    padding: 12px;
+    font-weight: bold;
+}
+.download_float{
+    min-height: 74px;
+    background: white;
+    position: absolute;
+    top: -86px;
+    box-shadow: 0px -2px 6px #ccc;
+    border-radius: 3px;
+}
+.download_lbl{
+    font-size: 1.5em;
+    padding: .9em;
+    text-align: center;
+    color: #848383;
+}
+.no_msb_lb{
+	text-align:center;
+	float:left;
+	width:100%;
+	padding:20% 2%;
+	color:#ccc;
+	font-size:20px;
+}
+#upload_form_loader{
+	    float: left;
+    width: 96%;
+    padding: 10px;
+    background: rgba(139, 195, 74, 0.15);
+    margin: 10px;
+}
+#download_file_wrap{
+     text-align: left;
+    padding: 7px 9px;
+    box-shadow: 0px 0px 6px #ccc;
+    margin: 9px;
+    font-weight: bold;
+}
+.file_link {
+    color: #666;
+    padding: 8px 1px;
+    box-shadow: 0px 0px 9px #ccc;
+    margin: 4px 0px;
+
+}
+.file_icon{
+	float: right;
+}  .subj_lbl{
+  	color:#777;
+  }
+  .back_btn{
+  	    background: #8BC34A;
+    color: #fff;
+    padding: 4px 15px;
+    margin-right: 34px;
+    border-radius: 4px;
+    cursor:pointer;
+  }
+  .edit_lbl{
+    float: right;
+    font-size: 15px;
+    color: #FF5722 !important;
+}
+.file_link{
+
+    color: #666;
+    padding: 8px 1px;
+    margin: 4px 0px;
+    font-size: 11px;
+    text-align: center;
+    float: left;
+    text-decoration: none !important;
+}
+.file_link:hover{
+	background: #ffc;
+}
+#download_file_wrap {
+    text-align: left;
+    padding: 7px 9px;
+    margin: 9px;
+    float: left;
+    box-shadow: none !important;
+    font-weight: bold;
+}
+</style>
+<script>
+ /*$(document).ready(function(){
+	  
+      function updateMiliSeconds(){
+		  $('.MilisecondLeft').each(function(e){
+			  var classMilisecs =  $( this ). text();
+			  
+			  var milisecs= classMilisecs * 1 ;
+			  var span_id = this . id;
+			  var newMilisec= milisecs * 1 - 1
+              if(newMilisec > 60){
+				  $('#'+span_id).text( 0 );
+			  }else{
+				  $('#'+span_id).text( newMilisec );
+			  }
+			  
+		  })
+ 
+	   }
+	    setInterval(updateMiliSeconds , 1 );
+	 
+	   function updateSeconds(){
+		  $('.SecondsLeft').each(function(e){
+			  var classMilisecs =  $( this ). text();
+			  
+			  var milisecs= classMilisecs * 1 ;
+			  var span_id = this . id;
+			  var newMilisec= milisecs * 1 - 1
+              if(newMilisec > 60){
+				  $('#'+span_id).text( 00 );
+			  }else{
+				  $('#'+span_id).text( newMilisec );
+			  }
+			  
+		  })
+ 
+	   }
+	   setInterval(updateSeconds , 1000 );
+	   
+	   function updateHour(){
+		  $('.HoursLeft').each(function(e){
+			  var classMilisecs =  $( this ). text();
+			  var milisecs= classMilisecs * 1 ;
+			  var span_id = this . id;
+			  var newMilisec= milisecs * 1 + 1
+              if(newMilisec > 60){
+				  $('#'+span_id).text( 00 );
+			  }else{
+				  $('#'+span_id).text( newMilisec );
+			  }
+			  
+		  })
+ 
+	   }
+	   setInterval(updateHour , 60000 );
+	 
+  });
+  */
+  function show_overly(return_val){
+	   $(".overlay").show(); 
+	   $("#modal_body").html(''+return_val+'').css({"text-align":"center","margin":"0px auto","font-weight":"bold"});
+  }
+  function force_refirect(){
+  	$("#Clear_Balance").click();
+  }
+
+  function open_order_download(id,order_id){
+	  //$("#download_drop_d"+id).show().toggleClass("animated slideInDown");
+	     var loader=$("#feltch_loader").html()
+		  show_overly("Checking payment status"+loader);
+		  $.get('accounts/clients/MyOrders/check_balance.html',{
+			  order_id:order_id
+		  },function(data){
+			  if($.trim(data)=="true"){
+					var files=$("#download_drop_d"+id).html();
+					show_overly(files);
+			  }else{
+				   show_overly("You have not paid for this order .Redirecting to payment gateways"+loader);
+				   $(".modal_output").addClass("animated shake ");
+				   setTimeout( function(){ $(".balance,.close_float_btn").click();},2000);
+				   setTimeout( function(){ $("#Clear_Balance").click();
+				   		show_overly("Redirecting " +loader + "Click <a href='javascript:;'  onclick='force_refirect()' >here</a> for quick redirection ")
+				    },4000);
+			  }
+		  });
+	 
+	 
+	  
+  }
+//takes event,load_to,pic_directory_path/pic_name/section
+   var upload_files = function(event,order_id) {
+	var loader=$("#feltch_loader").html();
+	//submit form
+			$("#upload_form_loader").show().html(loader);
+			$("#file_upload_form").ajaxForm(
+				{
+				target:'#upload_form_loader'
+				}).submit();
+				
+	 
+  }
+  $(document).ready(function(){
+	  $(".sent_attachment").click(function(){
+		 var order_id=$( this ) . attr("oid");
+		 var form_attachment='<div class="col-sm-12 form_attachment" >'
+							+'<form  method="post" enctype="multipart/form-data" action="accounts/clients/MyOrders/upload_files.php?oid='+order_id+'" id="file_upload_form" name="file_upload_form" >'
+							 +'<strong>Attact files for this order</strong><br>'
+							  +'<p>For multiple files, Zip them and send a single file</p>'
+							    +'<span id="upload_form_loader"></span>'
+								 +'<input type="file" name="order_file_attacment" id="order_file_attacment" onchange="upload_files('+order_id+')">'
+								 +'<p>'
+								 +'</p>'
+							 +'</form>'
+							 +'</div> ';
+							 
+           show_overly(form_attachment)
+	  })
+   
+   $(".job_title").mouseover(function(){
+   			    $(".edit_lbl").hide();
+				$( this ) .children().last().show();
+   });
+
+  });
+ function back_to_orders(order_id){
+ 	 				$("#edit_wrap,.back_btn").html('').hide();
+	 				$("#jobs_body").fadeIn();
+	 				$("#Orders_count_lbl").text($("#order_status_lbl").text());
+	     }
+
+    function EditOrder(order_id){
+    	var loader=$("#feltch_loader").html();
+    	
+    	    $("#jobs_body").hide();
+	  		$("#edit_wrap").show().html(loader).css({"padding-top":"17%"});
+	  		$("#Orders_count_lbl").text("Editing Order "+ order_id);
+	  		var back_btn='<span class="back_btn" role="back_to_orders" onclick="back_to_orders('+order_id+')">Go Back </span>';
+	  		$("#Orders_count_lbl").prepend(back_btn);
+	  		 $.get("accounts/clients/MyOrders/editorder.html",{
+	  		 	order_id:order_id,
+	  		 	email:$("#carry_email").text()
+	  		 },function(data){
+	  		 	$("#edit_wrap").html(data).css({"padding-top":"0px"});
+	  		 })
+	  }
+
+</script>
+<div class="col-sm-12 no_padding" style="height:100%; overflow:auto;">
+     <div class="pages_header col-sm-12 no_padding">
+       <span class="not_shown" id="order_status_lbl">My Orders  <span id="Increment"></span> 0</span>
+	   <h3 id="Orders_count_lbl">My Orders  <span id="Increment"></span> 0</h3>
+	 </div>
+
+<div class="real col-sm-12 clo-xs-12  no_padding" id="jobs_body" style="height:90%; overflow:auto;">
+ <h3 class='no_msb_lb glyphicon glyphicon-folder-open'><br> You haven't placed any order at the moment</span>  
+ <div class="clearfix"> </div>
+</div>
+ <div class="col-sm-12 edit_wrap not_shown" id="edit_wrap" style="height:90%; overflow:auto;">
+ 	  
+ </div>
+
+</div>  </div>
+
+  <div class="col-sm-12 pages not_shown" id="Balance">
+     <style>
+/*efault table*/
+td img{
+		width:40px;
+		height:40px;
+	}
+	.expired{
+		color:red;
+	}
+	.extended{
+		color:#000;
+	}
+	.running{
+		color:green;
+	}
+	.table_body{
+		max-height:400px;
+		overflow:hidden;
+		width:100%;
+	}
+	.footer_tbl{
+		position:fixed;
+		bottom:0px;
+	}
+	.footer_tbl th{
+		padding: 10px 37px;
+		font-size:12px;
+	}
+	.print_btn{
+		    cursor: pointer;
+    font-weight: 100 !important;
+    color: #ededed !important;
+	}
+	.pay_btn{
+	  background: cornflowerblue;
+    color: #fff;
+    text-align: center !important;
+	}
+	.ex_btn{
+		min-width:30px;
+		text-align:center;
+	}
+	
+.table_heading{
+	    color: #848484;
+    text-align: left;
+}
+.timetable{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.table_box{
+	overflow:auto;
+}
+.timetable th {
+    background: #222;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 11px;
+    padding: 12px 7px;
+    font-weight: 600;
+}
+.timetable tr td {
+    padding: 1em 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 11px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.clear_btn{
+	    background: #8BC34A;
+    padding: 6px;
+	color:#fff;
+    border-radius: 8px;
+	cursor:pointer;
+}
+#fixed_tbl_r th{
+	    padding: 12px 55px 12px 0px;
+}
+.maximize_overlay{
+	width: 80% !important;
+    background: #fff;
+    box-shadow: 0px 0px 5px #777;
+    position: fixed;
+    top: 10% !important;
+    left: 10% !important;
+    z-index: 100;
+	 max-height: 100% !important;
+    height: 80% !important;
+    overflow: auto !important;
+}
+</style>
+<script>
+$(document).ready(function(){
+  $("td").mouseover(function(){
+	    $(".pop_hover").hide("fast");
+	  $(this).children('h3').show("fast")
+  });
+  /*$(document).ready(function(){
+        $("td").click(function(){
+	    $("#finance_record").fadeIn();
+		 var loader=$("#loader").html()
+		 $('.table-section').animate({ scrollTop: $('#topele').offset().top-80 }, 'fast');
+							var uid= $(event.target).attr('uid'); // get role
+							$("#UID_Lbl").html(uid);
+							$("#floater_body_finance").html(loader);
+							$.post('accounts/admin/Balance/Selected_Ad.php',{
+								uid:uid
+							},function(data,status){
+								$("#floater_body_finance").html(data);
+	                       	})
+     });
+  });
+  function Close_Element(Ele){
+	  $("#floater_body_finance").html('');
+	  $("#"+Ele).fadeOut();
+  }*/
+  var loader=$("#loader").html()
+				
+	  $(".pay_btn").click(function(){
+		   $(".modal_output").addClass("maximize_overlay");
+		    show_overly(loader);
+			
+				$("#paypal_form").ajaxForm(
+					{
+					target:'#modal_body',
+					success:function(){
+							
+						}
+					}).submit();
+	  });
+});
+
+</script>
+<div class="col-sm-12 no_padding" style="height:100%; overflow:hidden;">
+     <div class="pages_header col-sm-12 no_padding">
+	   <h3 class="col-sm-11"> Payment Records   </h3>
+	   <h3 class="glyphicon glyphicon-print col-sm-1 print_btn not_shown" title="PRINT REPORT"></h3>
+	 </div>
+	<div class="col-sm-12" style="height:84%; overflow:auto;"> 
+	<table class="timetable col-sm-12 col-xs-12" >
+	<thead class="">
+		<tr id="topele">
+		
+			<th>Order ID</th>
+			<th>Date Invoiced</th>
+			<th>Time Invoiced</th>
+			<th>Amount</th>
+			<th>Balance Due</th>
+			<th>Status</th>
+			
+		</tr>
+		</thead>
+		<tbody class="table_body">
+						</tbody>
+			</table>
+	 
+</div>
+<div class="col-sm-12" style="width:98%;"> 
+<table class="timetable col-sm-10 col-xs-10" style="width:90%;">
+	<thead class="">
+     <tr id="fixed_tbl_r">
+
+			<th> </th>
+			<th> </th>
+			<th> </th>
+			<th> </th>
+			<th> </th><th> </th>
+			<th> </th>
+			<th>  
+			Total  $			</th>
+			<th></th>
+			<th>
+		BALANCE IS FULLY PAID . Thank you			 </th>
+			
+			<th></th>
+			 
+		</tr>
+     </thead>
+</table>	
+</div> 
+</div>  </div>
+  <div class="col-sm-12 pages not_shown " id="Messages">
+     <style>
+/*----chat-box----*/
+.chat-msg {
+	margin-bottom: 2em;
+}
+.chat-box{
+	background: #FFf;
+}
+.chat-msg-on{
+	background:#E7ECF1;
+	border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	-moz-border-radius: 0.15em;
+	-o-border-radius: 0.15em;
+	-ms-border-radius: 0.15em;
+	margin-left: 0.8em;
+	position:relative;
+	
+    font-size: 16px !important;
+	 
+}
+.chat-msg-on p{
+	color: #53646D;
+	font-size: 0.83em;
+	padding: 0.5em 0;
+	margin: 0;
+	position: relative;
+}
+.chat-msg-on span{
+	width: 10px;
+	height: 13px;
+	display: inline-block;
+	background: url(images/chat-arrow-l.html) no-repeat 0px 0px;
+	position: absolute;
+	left: -10px;
+	top: 21%;
+}
+.chat-msg-replay{
+	background:#21B8C6;
+}
+.chat-msg-replay p{
+	   color: #f9f9f9;
+    font-size: 0.83em;
+    padding: .6em 0;
+    margin: 0;
+    position: relative;
+}
+.chat-msg-replay span{
+	width: 10px;
+	height: 13px;
+	display: inline-block;
+	background: url(../images/chat-arrow-r.html) no-repeat 0px 0px;
+	position: absolute;
+	left: 99.4%;
+	top: 21%;
+}
+.people-on-chat{
+	padding: 2em 0em 0em;
+	
+	overflow:auto;
+	 
+}
+/*----msg-type-box----*/
+.msg-type-box{
+ 
+	border: 1px solid #e9ebee;
+}
+.msg-type-box input[type="text"]{
+	color: #79848C;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    width: 90.6%;
+    padding: 28px;
+}
+.msg-type-box input[type="button"]{
+	    color: #53646D;
+    font-size: 13px;
+    background: url(../images/send-bg.html) no-repeat 0px 0px;
+    border: none;
+    font-family: 'Raleway-SemiBold';
+    outline: none;
+    text-indent: 1.4em;
+    cursor: pointer;
+    height: 28px;
+    -webkit-appearance: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.msg-type-box input[type="button"]:hover{
+	color:#21B8C6;
+}
+/*---get-in-touch---*/
+.get-in-touch{
+	background: #FFF;
+	margin: 2.5em 0;
+	padding: 0.2em 0 2em 1.5em;
+}
+.get-in-touch h3{
+	color:#475965;
+	font-size:1.2em;
+	font-family: 'Raleway-SemiBold';
+	display:block;
+	text-transform:uppercase;
+}
+.chat-box-wrap{
+	border: 1px solid #e9ebee;
+	
+}
+.shop_reviews_header{
+    text-align: center;
+    color: #00BCD4;
+    background: #ddedef;
+    padding: 10px;
+    margin: 0px;
+	cursor:pointer;
+
+}
+.posted_by {
+    float: left;
+    font-size: x-small;
+    color: #795548;
+    padding: 7px;
+}
+.days_ago{
+	 float: right;
+    font-style: oblique;
+    font-size: x-small;
+	  color: #795548;
+}
+/*---*/
+.client_creds{
+	max-width: 30% !important;
+	width:100px;
+    border: 1px solid #ccc !important;
+    padding: 6px;
+}
+.people-on-chat {
+    height: 85% !important;
+    overflow: auto;
+    background: rgba(230, 230, 230, 0.26);
+}
+.chat-box-wrap{
+	height:100% !important;
+	overflow:hidden;
+	padding:0px;
+}
+.chat-box{
+	height:100%;
+	overflow:auto;
+}
+.chat_msg_input{
+	    outline: none !important;
+    background: #fff;
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+    background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+	
+}
+.msg_admn_name{
+	text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FF5722;
+}
+.msg_admn_status{
+font-style: italic;
+    color: #8BC34A;	
+}
+.typing{
+	    width: 100%;
+    float: left;
+    text-align: right;
+    color: #9E9E9E;
+}
+.offline_lbl{
+	    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+</style>
+<script>
+  setInterval(function(){
+	   var email=$("#carry_email").text()
+	   $.get("accounts/clients/Messages/online_status.html",{
+		   email:email
+	   },function(data){
+		   $("#online_status").html(data);
+	   });
+  },4000);
+</script>
+<div class="col-sm-12 no_padding full">
+     <div class="pages_header col-sm-12 no_padding">
+	   <h3 class="col-sm-4">My Messages </h3>
+	 </div>
+	 
+ <div class="col-sm-12 chat-box-wrap  ">
+       <!----chat-box---->
+	<div class="chat-box">
+	  <div class="col-sm-2" id="online_status">
+	   
+	  </div>
+		<div class="people-on-chat col-sm-10 no_padding"  >
+		 
+		  <style>
+/*----chat-box----*/
+.chat-msg {
+	margin-bottom: 2em;
+}
+.chat-box{
+	background: #FFf;
+}
+.chat-msg-on{
+	background:#E7ECF1;
+	border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	-moz-border-radius: 0.15em;
+	-o-border-radius: 0.15em;
+	-ms-border-radius: 0.15em;
+	margin-left: 0.8em;
+	position:relative;
+	
+    font-size: 16px !important;
+	 
+}
+.chat-msg-on p{
+	color: #53646D;
+	font-size: 0.83em;
+	padding: 0.5em 0;
+	margin: 0;
+	position: relative;
+}
+.chat-msg-on span{
+	width: 10px;
+	height: 13px;
+	display: inline-block;
+	background: url(images/chat-arrow-l.html) no-repeat 0px 0px;
+	position: absolute;
+	left: -10px;
+	top: 21%;
+}
+.chat-msg-replay{
+	background:#21B8C6;
+}
+.chat-msg-replay p{
+	   color: #f9f9f9;
+    font-size: 0.83em;
+    padding: .6em 0;
+    margin: 0;
+    position: relative;
+}
+.chat-msg-replay span{
+	width: 10px;
+	height: 13px;
+	display: inline-block;
+	background: url(../images/chat-arrow-r.html) no-repeat 0px 0px;
+	position: absolute;
+	left: 99.4%;
+	top: 21%;
+}
+.people-on-chat{
+	padding: 2em 0em 0em;
+	
+	overflow:auto;
+	 
+}
+/*----msg-type-box----*/
+.msg-type-box{
+ 
+	border: 1px solid #e9ebee;
+}
+.msg-type-box input[type="text"]{
+	color: #79848C;
+    font-size: 1em;
+    border: none;
+    outline: none;
+   
+    padding: 28px;
+}
+.msg-type-box input[type="button"]{
+	    color: #53646D;
+    font-size: 13px;
+    background: url(../images/send-bg.html) no-repeat 0px 0px;
+    border: none;
+    font-family: 'Raleway-SemiBold';
+    outline: none;
+    text-indent: 1.4em;
+    cursor: pointer;
+	    margin: 23px 0px !important;
+    
+    -webkit-appearance: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.msg-type-box input[type="button"]:hover{
+	color:#21B8C6;
+}
+/*---get-in-touch---*/
+.get-in-touch{
+	background: #FFF;
+	margin: 2.5em 0;
+	padding: 0.2em 0 2em 1.5em;
+}
+.get-in-touch h3{
+	color:#475965;
+	font-size:1.2em;
+	font-family: 'Raleway-SemiBold';
+	display:block;
+	text-transform:uppercase;
+}
+.chat-box-wrap{
+	border: 1px solid #e9ebee;
+	
+}
+.shop_reviews_header{
+    text-align: center;
+    color: #00BCD4;
+    background: #ddedef;
+    padding: 10px;
+    margin: 0px;
+	cursor:pointer;
+
+}
+.posted_by {
+    float: left;
+    font-size: x-small;
+    color: #795548;
+    padding: 7px;
+}
+.days_ago{
+	 float: right;
+    font-style: oblique;
+    font-size: x-small;
+	  color: #795548;
+}
+/*---*/
+.client_creds{
+	max-width: 30% !important;
+	width:100px;
+    border: 1px solid #ccc !important;
+    padding: 6px;
+}
+.people-on-chat {
+        height: 335px;
+    overflow: auto;
+    background: rgba(230, 230, 230, 0.26);
+}
+.chat-box-wrap{
+	height:103%;
+	overflow:auto;
+	padding:0px;
+}
+.chat-box{
+	height:100%;
+	    overflow: hidden !important;
+}
+.chat_msg_input{
+	    outline: none !important;
+    background: #fff;
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+    background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+	
+}
+.msg_admn_name{
+	text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FF5722;
+}
+.msg_admn_status{
+font-style: italic;
+    color: #8BC34A;	
+}
+.typing{
+	    width: 100%;
+    float: left;
+    text-align: right;
+    color: #9E9E9E;
+}
+.seen_status{
+    color: green;
+    position: absolute !important;
+    margin-left: 99%;
+    background: #9E9E9E  ;
+    border-radius: 50%;
+	
+}
+.seen_true{
+	background: #8BC34A !important
+}
+.not_seen{
+	background: #ccc !important
+}
+.not_sent{
+	background: red !important
+}
+.no_msb_lb{
+	text-align:center;
+	float:left;
+	width:100%;
+	padding:20% 2%;
+	color:#ccc;
+	font-size:20px;
+}
+</style>
+<script>
+function show_overly(return_val){
+	   $(".overlay").show(); 
+	   $("#modal_body").html(''+return_val+'').css({"text-align":"center","margin":"0px auto","font-weight":"bold"});
+}
+$(document).ready(function(){   
+		  // play message tone
+		  function  tone(tone_type){
+				if(tone_type=="qeued"){
+					  $("#tone1")[0].play();
+				}
+				else if(tone_type=="sent"){
+					 $("#tone2")[0].play();
+				}else if(tone_type=="seen"){
+					 $("#tone3")[0].play();
+				}else if(tone_type=="error"){
+					 $("#tone4")[0].play();
+				}else{
+					 $("#tone1")[0].play();
+				}
+			}
+	      //send chat  on change
+			$("#live_chat_input").change(function(){ $("#send_chat").click()    });
+		  //send chaton click 
+			$("#send_chat").click(function(){
+				var message=$.trim($("#live_chat_input").val());
+				var email=$.trim($('#carry_email').text());
+				var name=$.trim($('#carry_name').text());
+				
+				if(message.length==0){
+					show_overly('message required');
+				}else{
+					 var chat='<div class="chat-msg"><div class="col-xs-2 chat-people"><a href="#"><img src="images/user-pic.jpg" title="name"></a></div><div class="col-xs-9 chat-msg-on"><p>'+message+'</p><b class="posted_by"> by '+name+'</b><b class="days_ago">today, now</b> <span class="seen_status">  </span> </div> <div class="clearfix"> </div> </div>';
+					 $("#chat_reviews").append(chat)
+					 $("#live_chat_input").val("");
+					 $(".no_msb_lb").hide();
+					   tone('qeued');//play qeued tone
+					  var chatboxHeight=$('#chat_reviews')[0].scrollHeight;
+					  $('#chat_reviews').animate({ scrollTop : chatboxHeight+300 }, 600);
+					  $.post("plugins/livechat/send_message.html",{
+						  message:message,
+						  email:email,
+						  name:name
+					  },function(data,status){
+						  if($.trim(data)=="sent"){
+							   $(".seen_status").addClass('not_seen');
+							   tone('sent');//play send tone
+						  }else if($.trim(data)=="seen"){
+							  $(".seen_status").addClass('seen_strue');
+							  tone('seen');//play seen tone
+						  }else {
+							  $(".seen_status").addClass('not_sent').html(data);
+							  tone('error');//play error tone
+						  }
+					  });
+				}
+				
+			});
+			
+function refresh_client_chats(){
+	var email=$.trim($('#carry_email').text());
+	
+	if(email.length!=0){
+		$.get("accounts/clients/Messages/live_chats_refresh.html",{
+			 email:email
+		},function(data){
+			if($.trim(data).length==0){
+			 
+			}else{
+				 
+			 $("#chat_reviews").append(data);
+			 var chatboxHeight=$("#chat_reviews")[0].scrollHeight;
+			 $("#chat_reviews").animate({ scrollTop : chatboxHeight+300 }, 600);
+			}
+		});
+	}else{}
+}
+
+setInterval(function(){   
+     refresh_client_chats();
+    },3000);
+
+	
+});
+</script>
+ <div class="col-sm-12 col-xs-12 no_padding chat-box-wrap">
+	<div class="chat-box col-sm-12 col-xs-12 no_padding">
+		<div class="people-on-chat col-sm-12 col-xs-12 no_padding" id="chat_reviews">
+		 <h3 class='no_msb_lb glyphicon glyphicon-folder-open'><br> no messages </h3> <span></span>			<!---->
+		</div>
+		<div class="live_chat_footer  col-sm-12">
+		 <input type="text" class="live_chat_input col-sm-10" id="live_chat_input" placeholder="type your message here">
+		 <div class="send_btn  col-sm-2" id="send_chat"><h3 class="glyphicon glyphicon-send " ></h3> send</div>
+		</div>
+		<!--//msg-type-box---->
+	</div>
+  <div class="clearfix"> </div>
+</div>
+
+						<!--//chat-box---->
+								</div>
+		<div class="col-sm-2"></div>
+		
+		<div class="col-sm-2"></div>
+		<!--//msg-type-box---->
+	</div>
+<div class="clearfix"></div>
+
+</div>					<!--//chat-box---->				
+</div>
+  </div>
+ 
+  
+</div>
+
+<i class="carry_email not_shown"></i> 
+<i class="carry_pass not_shown">macharianjehu0704904401</i> 
+<i class="carry_name not_shown"></i> 
+<i class="carry_user_id not_shown"></i>
+
