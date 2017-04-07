@@ -108,7 +108,7 @@ $(function(){
  <div class="blocks sliderBlockWide col-sm-12" id="LogInPage">
  </br>
  </br>
- <h1 style="font-size:23px;">ABOUT US</h1><br>
+ <h1 style="font-size:23px;"><strong>ABOUT US</strong></h1><br>
 
  <p>Our company has worked successfully in this field of academics for over 5 years. We have consistently upgraded our services to satisfy our esteemed clients. Success has always driven us to a very innovative concept. Our working experience and market resources have brought about the creation of a sole online service. We are more than proud to introduce to you our esteemed client- Talentedwriters.net.</p><br>
 

@@ -24,7 +24,7 @@
    <link href="css/animate.css" rel="stylesheet">
  <link href="css/main.css" rel="stylesheet">
  <style>
- 
+
 table.table1 th {
    border: 1px solid black;
    padding: 20px;
@@ -105,7 +105,7 @@ $(function(){
  <div class="blocks sliderBlockWide col-sm-12" id="LogInPage">
  </br>
  </br>
-   <h1>HOW IT WORKS</h1>
+   <h1><strong>HOW IT WORKS</strong></h1>
  </br>
  </br>
  <p>We have put in considerable effort to ensure that our clients find the process simple and straight forward. We have set up a very easy to use interface on our site that will allow you to submit your work without a hustle.</p><br>
