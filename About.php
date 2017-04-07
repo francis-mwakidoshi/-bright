@@ -23,6 +23,7 @@
    <link href="css/font-awesome.min.css" rel="stylesheet">
    <link href="css/animate.css" rel="stylesheet">
  <link href="css/main.css" rel="stylesheet">
+ <link rel = "stylesheet" type = "text/css" href = "css/Style.css" />
  <style>
  p{
    color: white;
@@ -117,7 +118,9 @@ $(function(){
 
      <ul style="padding-left: 60px;">
        <li>Customers decide what is best for them and fix their own deadline. We comply with every demand of the customer</li>
+     </br>
        <li>Customers plan their own budgets with no negative influence from the support team. We are only there to guide you when placing the order.</li>
+     </br>
        <li>Customers give feedback about us and any recommendation made by themis fast effected</li>
      </ul><br>
 

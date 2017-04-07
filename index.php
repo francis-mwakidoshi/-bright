@@ -24,6 +24,8 @@
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel = "stylesheet" type = "text/css" href = "css/Style.css" />
+
 	<style>
 table.table1 th {
     border: 1px solid black;

@@ -24,10 +24,7 @@
    <link href="css/animate.css" rel="stylesheet">
  <link href="css/main.css" rel="stylesheet">
  <style>
- p{
-   color: white;
-   font-size: 14px;
- }
+ 
 table.table1 th {
    border: 1px solid black;
    padding: 20px;
