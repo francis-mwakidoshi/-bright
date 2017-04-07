@@ -67,27 +67,27 @@ $(function(){
  </a>
 </li>
 <li>
- <a href="About.html">
+ <a href="About.php">
     ABOUT US
  </a>
 </li>
 <li>
- <a href="how.html">
+ <a href="how.php">
   HOW IT WORKS
  </a>
 </li>
 <li>
- <a href="prices.html">
+ <a href="prices.php">
  OUR PRICES
  </a>
 </li>
 <li>
- <a href="faq.html">
+ <a href="faq.php">
   FAQS
  </a>
 </li>
 <li>
- <a href="contact.html">
+ <a href="contact.php">
   CONTACT US
  </a>
 </li>

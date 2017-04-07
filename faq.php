@@ -5,7 +5,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
    <meta charset="utf-8">
- <title>Contact Us-Bright Essay Writers</title>
+ <title>FAQs-Brightessaywriters </title>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -24,35 +24,6 @@
    <link href="css/animate.css" rel="stylesheet">
  <link href="css/main.css" rel="stylesheet">
  <style>
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.container1 {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
 table.table1 th {
    border: 1px solid black;
    padding: 20px;
@@ -96,27 +67,27 @@ $(function(){
  </a>
 </li>
 <li>
- <a href="About.html">
+ <a href="About.php">
     ABOUT US
  </a>
 </li>
 <li>
- <a href="how.html">
+ <a href="how.php">
   HOW IT WORKS
  </a>
 </li>
 <li>
- <a href="prices.html">
+ <a href="prices.php">
  OUR PRICES
  </a>
 </li>
 <li>
- <a href="faq.html">
+ <a href="faq.php">
   FAQS
  </a>
 </li>
 <li>
- <a href="contact.html">
+ <a href="contact.php">
   CONTACT US
  </a>
 </li>
@@ -131,41 +102,75 @@ $(function(){
 </header>
 <section class="col-sm-12 no_padding" id="site_content">
  <div class="blocks sliderBlockWide col-sm-12" id="LogInPage">
- <br>
- <br>
- <center> <h3 style="font-size:27px;">Contact Form</h3></center>
+<h1>FAQS</h1>
 <br>
 <br>
+
+<h2>What services do you provide?</h2><br>
+
+<p>Our company provides academic writing services available upon customers' request. We grant that: - Your paper will be 100% authentic - All your instructions will be followed - The paper will meet the deadline - The re-writes and revision of your paper will be free of charge.</p><br>
+
+<h2>What if I would like to make changes to the received piece of work?</h2><br>
+
+<p>As a company that values its customers' impression we follow a zero-tolerance policy concerning plagiarism. Moreover, as proof we are holders of the special anti-plagiarism system that is used by most universities in the US. Every single written order is checked prior to being sent to the customer. Talentedessaywriters.com provides custom writing and reports, to be used for research and study assistance purposes only. Under NO CIRCUMSTANCE will our work to be plagiarized by submitting it as your work.</p><br>
+
+<h2>What is your policy as far as plagiarism is concerned?</h2><br>
+
+<p>As a company that values its customers' impression we follow a zero-tolerance policy concerning plagiarism. Moreover, as proof we are holders of the special anti-plagiarism system that is used by most universities in the US. Every single written order is checked prior to being sent to the customer. Talentedessaywriters.com provides custom writing and reports, to be used for research and study assistance purposes only. Under NO CIRCUMSTANCE will our work to be plagiarized by submitting it as your work</p><br>
+
+<h2>How to place an order?</h2><br>
+
+<p>Kindly find “Order Now” button and click it. It will direct you to order form containing different paper specifications. Fill the paper details correctly and submit payments as explained in Order Now tab. You have successfully placed an order</p><br>
+
+<h2>How to calculate the number of pages to order?</h2><br>
+
+<p>A page is approximately 275 words. To calculate the number of pages to order for, simply divide the number of desired words with 275 to get the number of pages for your order. Note that in case you get decimal-point pages, say 3.46 pages, round of the next whole number, for this case, four pages.</p><br>
+
+<h2>How long does it take to start working on an order?</h2><br>
+
+<p>Talentedessaywriters.com has a pool of professional writers. We have a writer for your order as soon as you place your order. However, some clients place an order awaiting more instructions or materials from their tutors. Others need to do some research before providing a go ahead for the placed order. We, therefore, assign an order once you approve that all necessary instructions, materials and additional information are available. It helps the writer organize their work effectively. We, therefore, request you to ensure you provide all necessary materials when placing an order to facilitate immediate assigning.</p>
+<h2>How long will work on an order take?</h2><br>
+
+<p>We offer academic writing services governed by time. Orders take different time to complete depending on the customer deadline interest. Often, more urgent orders are written first perhaps the reason their prices are higher than those with a longer timeline. However, we ensure that we finish all orders within the stated period to provide enough time for any concern from you.</p><br>
+
+<h2>What should I do if I do not receive the paper by the deadline?</h2><br>
+ </div>
+</section>
 <br>
-<div class="container1">
-  <form action="/contact.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<section>
+  <div class="blocks sliderBlockWide ">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<p>Contact us immediately if the order deadline passes. You can initiate a chat; our support team is available 24/7. Alternatively, you can email the support team at info@Talentedessaywriters.com to reach our support team to assist you. The support team is always aware of all deadlines. The team should contact you some minutes before the deadline to notify the status. However, Talentedessaywriters.com is strict on deadlines hence our writers always finish orders in time</p><br>
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="usa">Britain</option>
+<h2>How can I send other materials to the writer?</h2><br>
 
-          <option value="usa">South Africa</option>
-          <option value="usa">Russia</option>
+<p>The ordering form currently allows you to upload one file at a time. If you have more than one file to send, There are two ways you can send the materials.
 
-          <option value="usa">Other</option>
+You can put all the files into a single folder, and compress(zip) the folder into a .zip or .rar file type. Note that the file should not exceed 10mb. Otherwise, the server will reject it.
 
-    </select>
+You can also send the additional materials to info@talentedessaywriters.com</p><br>
+<h2>What are your charges?</h2><br>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<p>At Talentedessaywriters.com we mind your tight financial budget. We offer prices that are affordable to most students. We charge all academic papers based on the deadline, number of pages, and level of education. Find our complete price guide in the Prices Page
+</p><br>
 
-    <input type="submit" value="Submit">
-  </form>
-</div>
+<h2>How can I pay for an order?</h2><br>
 
+<p>PayPal is the only authorized payment retailer in Talentedessaywriters.com. We therefore accepts common world’s credit cards including MasterCard, Visa, JCB, Discover, and American Express. Once you click order now button, you will be directed to PayPal page to submit your payments</p><br>
+
+<h2>Are your services private and confidential?</h2><br>
+
+<p>Talentedessaywriters.com asks for some personal details when placing an order. Most commonly asked details include names, email address, and phone numbers. We are very responsible with the information you provide us. All information provided by our clients is private and confidential and we highly secure it from unauthorized access. We have elaborate security system that holds every staff interacting with the details accountable for any misconduct</p><br>
+
+<h2>What happens when I want a refund after being dissatisfied with your services?</h2><br>
+
+<p>Our professional writers are renowned for delivering premium quality work. We guarantee that in case the client is dissatisfied, the writer revises the paper until the client is completely satisfied. The clients can also ask for the reassignment of the paper to a different writer after the first writer fails to meet your needs. Refunds are possible when plagiarism has been observed and proved and when the paper fails to meet the deadline. However, we ensure we satisfy our clients completely to avoid these incidences</p><br>
+
+<h2>Do your writers complete online assignments and multiple choice (check boxes, T/F, etc.) tests?</h2><br>
+
+<p>We do not complete multiple choice tests and\or any other kind of online tests, as we believe it is as much the student's direct responsibility to pass tests (whether they are online or not), as it is to take exams. In addition to that, it is hard to evaluate the true quantity of work done by the writer while performing a multiple choice test. Moreover, please be advised not to share your personal information with the writers (including any accounts login information), in the paper details and through messages, as the company will not take responsibility if your personal data is abused in such a situation. In case you have ordered such an assignment, your order will be canceled and money will be refunded</p><br>
+
+<h2>end faq</h2>
 
  </div>
 </section>

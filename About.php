@@ -5,7 +5,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
    <meta charset="utf-8">
- <title>How It Works-Bright Essay Writers</title>
+ <title>About Us-Bright Essay Writers</title>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -26,7 +26,6 @@
  <style>
  p{
    color: white;
-   font-size: 16px;
  }
 table.table1 th {
    border: 1px solid black;
@@ -71,27 +70,27 @@ $(function(){
  </a>
 </li>
 <li>
- <a href="About.html">
+ <a href="About.php">
     ABOUT US
  </a>
 </li>
 <li>
- <a href="how.html">
+ <a href="how.php">
   HOW IT WORKS
  </a>
 </li>
 <li>
- <a href="prices.html">
+ <a href="prices.php">
  OUR PRICES
  </a>
 </li>
 <li>
- <a href="faq.html">
+ <a href="faq.php">
   FAQS
  </a>
 </li>
 <li>
- <a href="contact.html">
+ <a href="contact.php">
   CONTACT US
  </a>
 </li>
@@ -108,14 +107,30 @@ $(function(){
  <div class="blocks sliderBlockWide col-sm-12" id="LogInPage">
  </br>
  </br>
-   <h1>HOW IT WORKS</h1>
- </br>
- </br>
- <p>We have put in considerable effort to ensure that our clients find the process simple and straight forward. We have set up a very easy to use interface on our site that will allow you to submit your work without a hustle.</p><br>
- <p>All you have to do is submit your assignment through our system, make your payment and then wait for your work to be handled by the most qualified writer available. It is important to provide clear instructions on how you want your assignment to be handled so that our team can have an easy time handling your project to your liking.</p><br>
-<p>Once your work is complete, our staff will go through it to ensure that the writer to whom the work was assigned met all your specifications. At this stage, your work is also checked for originality and quality. We never submit work to you that has not passed through our quality assessment team.</p><br>
-<p>After this rigorous process is complete, your work is sent to your email address. We always allow you an unlimited number of revisions if you are not satisfied with the quality of work delivered although this seldom happens due to the detailed checks that your work goes through before submission.</p><br>
-<p>If you are completely unsatisfied with the kind of work done, we will offer your money back unconditionally. We strongly believe that our clients never have to pay for work that they do not approve of. This clearly makes us one of the unique companies to work with in custom essay writing</p><br>
+ <h1 style="font-size:23px;">ABOUT US</h1><br>
+
+ <p>Our company has worked successfully in this field of academics for over 5 years. We have consistently upgraded our services to satisfy our esteemed clients. Success has always driven us to a very innovative concept. Our working experience and market resources have brought about the creation of a sole online service. We are more than proud to introduce to you our esteemed client- Talentedwriters.net.</p><br>
+
+  <p>Talentedwriters.net is an unparalleled online assistance service that gives an opportunity writers and customers to work together towards a mutually satisfying final product. After working in this field of academics for long, we have come to know that the client is the manager of their order and is given the much respect that they deserve.</p><br>
+
+   <p><strong>With Brightessaywriters.com:</strong></p><br>
+
+     <ul style="padding-left: 60px;">
+       <li>Customers decide what is best for them and fix their own deadline. We comply with every demand of the customer</li>
+       <li>Customers plan their own budgets with no negative influence from the support team. We are only there to guide you when placing the order.</li>
+       <li>Customers give feedback about us and any recommendation made by themis fast effected</li>
+     </ul><br>
+
+      <p>Our writers are very competent in all fields. We have employed writers who have Bachelor’s, masters and PHD degrees in all fields. We have had to turn down any requests by writers who have not met the minimum qualification of a PHD degree</p><br>
+
+       <p>Being among the best writers in the globe, our writers fully understand what talented essay writing is all about. They fully understand the requirements of a term paper, dissertation, coursework, research paper, lab report, thesis personal statement et al. Trust them to deliver the best even in the most demanding assignment in your field of study. Their quality was, is, and will always be unmatched. This is the main reason as to why we have been in place for quite some time and we promise that we will always be there.</p><br>
+
+       <p>To enhance a fast and easy communication between our clients, and us we have put in place a 24/7 support chat system. Any client can chat with us at any time of the day or night 7 days a week, 365 days of the year. We had to put in place the system to make sure that our clients do not make desperate attempts to reach us. All you need to do as a client is click on chat now and you will get a reply instantly.</p><br>
+
+       <p>As a reputable company, we give zero tolerance to plagiarism. No writer is allowed to plagiarize their work. Our editorial team vigorously goes through the work submitted by our writers to make sure that their work is 100% original. We always fire writers who are non-committal to doing original work.</p>
+       <p>Our customers should not worry about the safety of their information. We guarantee that your personal information is well guarded. We only want you to succeed in your studies. Nothing more than that concerns us</p><br>
+
+       <p>Suppose our writes make some mistakes. We guarantee our clients that we will give free revisions to their satisfaction. Feel free to contact us through our email or chat with us should you need any revisions to be made. We understand that at times, some errors can be made.Worry not should those errors occur. We will sort them out FREE only 10 days after the work has been uploaded.</p><br>
 
 
  </div>
