@@ -144,20 +144,9 @@ $(function(){
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="email" placeholder="Your email..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="usa">Britain</option>
-
-          <option value="usa">South Africa</option>
-          <option value="usa">Russia</option>
-
-          <option value="usa">Other</option>
-
-    </select>
 
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>

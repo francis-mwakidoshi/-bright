@@ -28,12 +28,11 @@
 
 	<style>
 table.table1 th {
-    border: 1px solid black;
     padding: 20px;
     background-color: #2196f3;
 }
 table.table1 td {
-    border: 1px solid black;
+
     padding: 20px;
 }
 table.table1  {
@@ -861,7 +860,7 @@ $(function(){
 
 <section>
 	<div class="blocks sliderBlockWide ">
-	 <table class="table1">
+	 <table width="600" class="table1" style="margin: 0px auto; border-radius:38px;">
 	 	<tr>
 		<th>10 days of free revisions</th>
 		<th>Papers delivered on time</th>
@@ -928,11 +927,10 @@ $(function(){
 </td>
 	</tr>
 </table>
-</br>
-</br>
-<hr>
-<div class="row" style="background-color:#ad1457; ">
-  <div class="col-sm-3 col-xs-4" style="background-color:#000;margin:20px auto;">
+
+	<table class="table1" style="border-radius:38px;">
+	<tr>
+	<td>
   <ul>
    <li>Essay writing help in Victoria</li>
    <li>Engineering material science essay help</li>
@@ -942,8 +940,8 @@ $(function(){
     <li>Castigiano’s Theory essay help</li>
      <li>Best Trusted Assignment Help</li>
    </ul>
-</div>
-  <div class="col-sm-3 col-xs-4" style="background-color:blue; margin:20px 20px 20px 20px;">
+</td>
+<td>
   	<ul>
    <li>Online researchers Victoria</li>
    <li>Online dissertation writers</li>
@@ -953,8 +951,8 @@ $(function(){
     <li>Essay writing services Ottawa</li>
      <li>Essay writing service in Ontario</li>
    </ul>
-  </div>
-  <div class="col-sm-3 col-xs-4" style="background-color:yellow; margin:20px auto;">
+</td>
+<td>
   		<ul>
    <li>Trusted assignment help</li>
    <li>Toronto essay writing service</li>
@@ -964,8 +962,10 @@ $(function(){
     <li>Quick paper writing service</li>
      <li>Quality online thesis writers</li>
    </ul>
-  </div>
-</div>
+</td>
+</tr>
+</table>
+
 	</div>
 </section>
 <style>
